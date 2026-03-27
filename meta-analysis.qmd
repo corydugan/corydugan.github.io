@@ -1,0 +1,554 @@
+---
+title: "Iron Supplementation & Haemoglobin Response in Women of Reproductive Age"
+subtitle: "A Reproducible Meta-Analysis in R"
+author: "Cory Dugan, PhD"
+date: today
+toc: true
+toc-depth: 4
+toc-location: right
+code-fold: show
+code-tools: true
+code-line-numbers: true
+number-sections: true
+execute:
+  warning: false
+  message: false
+  fig-width: 10
+  fig-height: 7
+bibliography: references.bib
+---
+
+## Project Overview
+
+This document presents a reproducible meta-analysis examining the effect of oral iron supplementation on haemoglobin (Hb) concentration in women of reproductive age (18--49 years). The analysis pipeline mirrors the approach I used in my published Cochrane abridged review on intravenous iron for non-anaemic iron deficiency ([Dugan et al., 2022, *J Cachexia Sarcopenia Muscle*](https://doi.org/10.1002/jcsm.13075)), adapted here for oral supplementation trials using a synthetic dataset for portfolio demonstration.
+
+The full pipeline — from effect size calculation through to sensitivity analysis — is built in R using `metafor` and follows PRISMA 2020 reporting conventions.
+
+### Motivation
+
+Iron deficiency disproportionately affects women of reproductive age due to menstrual iron losses, pregnancy demands, and inadequate dietary intake. Oral iron supplementation is the frontline intervention, but the magnitude of Hb response varies considerably across trials — driven by differences in baseline iron status, dose, duration, and formulation.
+
+A meta-analysis lets us pool effect sizes for a more precise overall estimate, quantify heterogeneity to understand *why* results vary, test for publication bias, and identify moderators (dose, baseline status) that explain variation in response.
+
+### Statistical Framework
+
+The random-effects model assumes the true effect size varies across studies:
+
+$$\hat{\theta}_i = \theta_i + \varepsilon_i, \quad \theta_i \sim N(\mu, \tau^2), \quad \varepsilon_i \sim N(0, v_i)$$
+
+Where $\hat{\theta}_i$ is the observed effect in study $i$, $\mu$ is the overall mean effect, $\tau^2$ is between-study variance, and $v_i$ is within-study sampling variance. This two-level structure is almost always appropriate for clinical nutrition research where populations, protocols, and contexts vary meaningfully.
+
+### Packages & Environment Setup
+
+```{r load-packages, message=FALSE, warning=FALSE}
+library(metafor)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+theme_set(
+  theme_minimal(base_size = 13) +
+    theme(
+      plot.title = element_text(face = "bold", size = 14),
+      plot.subtitle = element_text(colour = "grey40"),
+      panel.grid.minor = element_blank(),
+      legend.position = "bottom"
+    )
+)
+
+set.seed(2024)
+```
+
+---
+
+## Study-Level Data
+
+### Data Description
+
+The dataset contains summary statistics from 18 RCTs examining oral iron supplementation versus placebo/control in women of reproductive age. Each row includes sample sizes, mean Hb change (g/dL), SDs, and study-level covariates (baseline iron status, dose, duration).
+
+::: {.callout-note}
+## Data Source
+The analytical pipeline demonstrated here mirrors the methods I applied in my published Cochrane abridged review on intravenous iron for non-anaemic iron deficiency ([Dugan et al., 2022](https://doi.org/10.1002/jcsm.13075)). For this portfolio demonstration, I've generated a synthetic dataset calibrated against effect sizes and variance structures from published oral iron RCTs (e.g., Low et al. 2016 Cochrane Review). The data are realistic but simulated — this page showcases the analytical workflow, not clinical findings.
+:::
+
+```{r create-study-data}
+# Synthetic dataset calibrated against published oral iron RCTs
+# Structure matches what I'd extract during systematic review screening
+
+studies <- tibble(
+  study_id     = 1:18,
+  author       = c("Patterson 2005", "Chen 2008", "Khatib 2006",
+                    "Rezk 2015", "Bencaiova 2012", "Makrides 2003",
+                    "Cogswell 2003", "Falahi 2007", "Zhou 2009",
+                    "Bruner 1996", "Verdon 2003", "Krayenbuehl 2011",
+                    "Vaucher 2012", "Favrat 2014", "Pratt 2017",
+                    "McClung 2009", "DellaValle 2014", "Pasricha 2013"),
+  year         = c(2005, 2008, 2006, 2015, 2012, 2003,
+                    2003, 2007, 2009, 1996, 2003, 2011,
+                    2012, 2014, 2017, 2009, 2014, 2013),
+  n_treat      = c(52, 78, 45, 60, 80, 215,
+                    72, 34, 155, 36, 77, 90,
+                    55, 110, 44, 88, 62, 200),
+  mean_treat   = c(1.12, 0.85, 1.45, 0.92, 0.78, 0.65,
+                    0.55, 1.30, 0.70, 0.42, 0.88, 0.95,
+                    0.60, 0.72, 1.05, 0.68, 0.90, 0.58),
+  sd_treat     = c(0.88, 0.72, 1.10, 0.65, 0.90, 0.82,
+                    0.68, 0.95, 0.75, 0.55, 0.70, 0.80,
+                    0.62, 0.78, 0.85, 0.72, 0.68, 0.70),
+  n_ctrl       = c(50, 75, 43, 58, 82, 210,
+                    70, 32, 150, 38, 75, 88,
+                    53, 108, 42, 90, 60, 198),
+  mean_ctrl    = c(0.15, 0.10, 0.18, 0.08, -0.05, 0.05,
+                    0.12, 0.20, 0.02, 0.05, 0.10, 0.12,
+                    0.08, -0.02, 0.15, 0.10, 0.05, 0.03),
+  sd_ctrl      = c(0.82, 0.68, 1.05, 0.60, 0.85, 0.78,
+                    0.65, 0.90, 0.72, 0.52, 0.65, 0.75,
+                    0.58, 0.72, 0.80, 0.70, 0.65, 0.68),
+  # Covariates for subgroup/meta-regression
+  baseline_status = c("deficient", "replete", "deficient", "deficient",
+                       "replete", "replete", "replete", "deficient",
+                       "replete", "replete", "deficient", "deficient",
+                       "replete", "replete", "deficient", "deficient",
+                       "replete", "replete"),
+  dose_mg      = c(100, 60, 120, 80, 65, 40,
+                    30, 100, 60, 18, 80, 100,
+                    40, 65, 105, 100, 80, 60),
+  duration_wk  = c(12, 16, 8, 12, 16, 20,
+                    12, 8, 16, 8, 12, 12,
+                    16, 12, 8, 8, 12, 16)
+)
+```
+
+### Computing Effect Sizes
+
+Using raw mean differences (MD) since all studies report Hb in g/dL — no need to standardise.
+
+$$\text{MD}_i = \bar{X}_{T,i} - \bar{X}_{C,i}, \quad v_i = \frac{s^2_{T,i}}{n_{T,i}} + \frac{s^2_{C,i}}{n_{C,i}}$$
+
+```{r calculate-effect-sizes}
+# Raw MD — all studies use the same Hb units so standardisation isn't needed
+dat <- escalc(
+  measure = "MD",
+  m1i  = mean_treat, sd1i = sd_treat, n1i = n_treat,
+  m2i  = mean_ctrl,  sd2i = sd_ctrl,  n2i = n_ctrl,
+  data = studies,
+  slab = author
+)
+
+dat %>%
+  select(author, year, n_treat, n_ctrl, yi, vi, baseline_status, dose_mg, duration_wk) %>%
+  mutate(yi = round(yi, 3), vi = round(vi, 4), se = round(sqrt(vi), 3)) %>%
+  kable(
+    col.names = c("Study", "Year", "n (Tx)", "n (Ctrl)",
+                   "MD (g/dL)", "Variance", "Baseline Status",
+                   "Dose (mg)", "Duration (wk)", "SE"),
+    caption = "Study-level effect sizes: Mean difference in haemoglobin change (g/dL)"
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE, font_size = 12)
+```
+
+Positive MDs indicate greater Hb increase in the iron group. The spread across studies — from ~0.3 to >1.0 g/dL — is typical for this literature and reflects genuine differences in populations, doses, and trial design.
+
+---
+
+## Random-Effects Meta-Analysis
+
+### Model Fitting
+
+REML estimation for $\tau^2$ — preferred over DerSimonian-Laird because it provides less biased variance estimates, particularly with <20 studies.
+
+```{r fit-random-effects-model}
+res <- rma(yi, vi, data = dat, method = "REML")
+summary(res)
+```
+
+### Interpreting the Results
+
+```{r extract-results}
+pooled_md   <- round(coef(res), 2)
+pooled_ci   <- round(res$ci.lb, 2)
+pooled_ci_u <- round(res$ci.ub, 2)
+tau2_val    <- round(res$tau2, 4)
+I2_val      <- round(res$I2, 1)
+Q_val       <- round(res$QE, 2)
+Q_df        <- res$k - 1
+Q_p         <- formatC(res$QEp, format = "e", digits = 2)
+```
+
+Key outputs:
+
+- **Pooled MD** = `r pooled_md` g/dL (95% CI: `r pooled_ci` to `r pooled_ci_u`)
+- **$\tau^2$** = `r tau2_val` — between-study variance beyond sampling error
+- **$I^2$** = `r I2_val`% — proportion of variability due to genuine heterogeneity (>75% = high)
+- **Cochran's Q** = `r Q_val` (df = `r Q_df`, $p$ = `r Q_p`)
+
+#### Clinical Context
+
+WHO defines anaemia in non-pregnant women as Hb < 12.0 g/dL. A pooled increase of ~`r pooled_md` g/dL is clinically meaningful — enough to shift a proportion of mildly anaemic women into the normal range. The wide prediction interval (explored below) tells a more nuanced story about who actually benefits.
+
+---
+
+## Forest Plot
+
+```{r forest-plot, fig.height=10, fig.width=10}
+forest(
+  res,
+  header   = TRUE,
+  xlim     = c(-2.5, 3.5),
+  at       = seq(-0.5, 2.0, by = 0.5),
+  xlab     = "Mean Difference in Haemoglobin (g/dL)",
+  cex      = 0.85,
+  col      = "steelblue4",
+  border   = "steelblue4",
+  mlab     = "RE Model (REML)",
+  psize    = 1,
+  fonts    = "mono",
+  addpred  = TRUE,
+  shade    = TRUE
+)
+```
+
+The prediction interval (dashed) is wider than the confidence interval because it incorporates $\tau^2$ — it shows where we'd expect a *new* study's true effect to fall. If the prediction interval crosses zero, supplementation may not benefit all populations despite the pooled estimate being positive.
+
+---
+
+## Heterogeneity Assessment
+
+### Quantifying Between-Study Variation
+
+$I^2$, $\tau^2$, and Q give us numbers — the Baujat and GOSH plots show which studies are driving the heterogeneity.
+
+```{r heterogeneity-baujat, fig.height=6}
+baujat(res,
+       xlab = "Contribution to Overall Heterogeneity (Q)",
+       ylab = "Influence on Pooled Result",
+       main = "Baujat Diagnostic Plot")
+```
+
+Studies in the upper-right are both heterogeneous *and* influential — candidates for closer scrutiny (e.g., checking for non-standard dosing, open-label designs, or atypical populations).
+
+### GOSH Plot (Graphical Overview of Study Heterogeneity)
+
+```{r gosh-plot, fig.height=7, cache=TRUE}
+# Fit model to all possible subsets — reveals whether heterogeneity
+# is driven by specific studies (multimodal) or spread evenly (unimodal)
+gosh_res <- gosh(res, subsets = 5000)
+plot(gosh_res, out = 1, breaks = 50)
+```
+
+A unimodal cluster suggests quantitative heterogeneity (studies sampling from one distribution). Multiple clusters would indicate distinct subpopulations — which is exactly what we test next.
+
+---
+
+## Subgroup Analysis
+
+### By Baseline Iron Status
+
+The key biological moderator here: iron-deficient women have suppressed hepcidin, so they absorb a greater fraction of supplemental iron and show larger Hb responses. This is the mechanism I investigated extensively in the IRONWOMAN trial.
+
+$$\text{Iron Absorption (\%)} \propto \frac{1}{\text{Hepcidin}}$$
+
+```{r subgroup-baseline-status, fig.height=9}
+# Mixed-effects model with baseline_status as moderator
+sub_status <- rma(yi, vi, data = dat,
+                  mods = ~ baseline_status,
+                  method = "REML")
+summary(sub_status)
+```
+
+```{r subgroup-forest-plot, fig.height=12, fig.width=10}
+dat_def <- dat[dat$baseline_status == "deficient", ]
+dat_rep <- dat[dat$baseline_status == "replete", ]
+
+n_def <- nrow(dat_def)
+n_rep <- nrow(dat_rep)
+
+rows_def <- 3:(3 + n_def - 1)
+rows_rep <- (max(rows_def) + 5):(max(rows_def) + 4 + n_rep)
+
+res_def <- rma(yi, vi, data = dat_def, method = "REML")
+res_rep <- rma(yi, vi, data = dat_rep, method = "REML")
+
+par(font = 2)
+forest(
+  res,
+  xlim     = c(-3.0, 4.0),
+  at       = seq(-0.5, 2.0, by = 0.5),
+  xlab     = "Mean Difference in Haemoglobin (g/dL)",
+  cex      = 0.8,
+  order    = baseline_status,
+  rows     = c(rows_def, rows_rep),
+  mlab     = "",
+  header   = TRUE
+)
+
+par(font = 4)
+text(-3.0, c(max(rows_rep) + 1, max(rows_def) + 3), pos = 4, cex = 0.85,
+     c("Iron-Replete at Baseline", "Iron-Deficient at Baseline"))
+
+addpoly(res_def, row = min(rows_def) - 1.5, mlab = "Subgroup RE (Deficient)", col = "firebrick")
+addpoly(res_rep, row = min(rows_rep) - 1.5, mlab = "Subgroup RE (Replete)", col = "steelblue")
+```
+
+As expected from the hepcidin mechanism, iron-deficient women show a larger Hb response. This has direct implications for clinical practice: targeted supplementation (screen-then-treat) may be more efficient than universal supplementation, and the pooled effect in replete women may fall below clinically meaningful thresholds. This aligns with what we found in the IRONWOMAN population screening data, where baseline ferritin was the strongest predictor of treatment response.
+
+---
+
+## Meta-Regression
+
+### Dose-Response Relationship
+
+Meta-regression extends the RE model by including study-level covariates as predictors of effect size:
+
+$$\theta_i = \beta_0 + \beta_1 \cdot \text{Dose}_i + u_i, \quad u_i \sim N(0, \tau^2_{\text{residual}})$$
+
+```{r meta-regression-dose}
+# Testing dose-response — biologically plausible up to ~100mg,
+# beyond which mucosal block limits absorption
+reg_dose <- rma(yi, vi, mods = ~ dose_mg, data = dat, method = "REML")
+summary(reg_dose)
+```
+
+```{r meta-regression-dose-plot, fig.height=6}
+regplot(reg_dose,
+        xlab   = "Daily Elemental Iron Dose (mg)",
+        ylab   = "Mean Difference in Haemoglobin (g/dL)",
+        main   = "Meta-Regression: Dose-Response Relationship",
+        col    = "steelblue",
+        bg     = adjustcolor("steelblue", alpha = 0.3),
+        plim   = c(10, 130),
+        ci     = TRUE,
+        pi     = TRUE,
+        digits = 2,
+        las    = 1)
+```
+
+### Duration Effect
+
+```{r meta-regression-duration}
+# Longer supplementation should yield greater cumulative Hb increases,
+# but plateaus as stores replete and hepcidin upregulates
+reg_dur <- rma(yi, vi, mods = ~ duration_wk, data = dat, method = "REML")
+summary(reg_dur)
+```
+
+### Multiple Moderators
+
+```{r meta-regression-multiple}
+# Full model — which covariates independently predict effect size
+# after mutual adjustment?
+reg_full <- rma(yi, vi,
+                mods = ~ dose_mg + duration_wk + baseline_status,
+                data = dat,
+                method = "REML")
+summary(reg_full)
+```
+
+#### Model Comparison
+
+```{r model-comparison}
+# R^2 analogue: proportion of between-study variance explained
+# R^2 = 1 - (tau^2_model / tau^2_null)
+
+# Helper for AICc extraction — row naming varies across metafor versions
+get_aicc <- function(model) {
+  fs <- fitstats(model)
+  idx <- grep("AICc", rownames(fs), ignore.case = TRUE)
+  if (length(idx) > 0) return(as.numeric(fs[idx[1], 1]))
+  return(as.numeric(fs[4, 1]))
+}
+
+tibble(
+  Model = c("Null (no moderators)", "Dose only", "Duration only",
+            "Dose + Duration + Status"),
+  tau2 = round(c(res$tau2, reg_dose$tau2, reg_dur$tau2, reg_full$tau2), 4),
+  R2   = round(c(0,
+                  max(0, 1 - reg_dose$tau2 / res$tau2),
+                  max(0, 1 - reg_dur$tau2 / res$tau2),
+                  max(0, 1 - reg_full$tau2 / res$tau2)) * 100, 1),
+  AICc = round(c(get_aicc(res),
+                  get_aicc(reg_dose),
+                  get_aicc(reg_dur),
+                  get_aicc(reg_full)), 1)
+) %>%
+  kable(
+    col.names = c("Model", "\u03C4\u00B2 (residual)", "R\u00B2 (%)", "AICc"),
+    caption = "Model comparison: How much heterogeneity do moderators explain?"
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"), full_width = FALSE)
+```
+
+Note that $R^2$ here represents proportion of *between-study* variance explained — not total variance. Unexplained heterogeneity likely reflects unmeasured factors like compliance, formulation type, dietary iron intake, and inflammation status.
+
+---
+
+## Publication Bias
+
+### Funnel Plot
+
+```{r funnel-plot, fig.height=7}
+funnel(res,
+       xlab    = "Mean Difference (g/dL)",
+       main    = "Funnel Plot: Assessing Publication Bias",
+       col     = "steelblue",
+       bg      = adjustcolor("steelblue", alpha = 0.4),
+       level   = c(90, 95, 99),
+       shade   = c("white", "grey85", "grey75"),
+       refline = coef(res),
+       legend  = TRUE)
+```
+
+Asymmetry in the lower-left (missing small studies with null results) would suggest small-study effects. Points outside the 99% band are potential outliers worth investigating.
+
+### Egger's Regression Test
+
+Formalises the visual asymmetry assessment. A significant intercept ($p < 0.10$ by convention) indicates funnel asymmetry — though this could reflect genuine small-study effects rather than publication bias specifically.
+
+$$\frac{\hat{\theta}_i}{\text{SE}_i} = \beta_0 + \beta_1 \cdot \frac{1}{\text{SE}_i} + \varepsilon_i$$
+
+```{r eggers-test}
+egg <- regtest(res, model = "lm")
+egg
+```
+
+### Trim-and-Fill Method
+
+Estimates the number of "missing" studies and imputes them for an adjusted pooled estimate.
+
+```{r trim-and-fill, fig.height=7}
+tf <- trimfill(res)
+summary(tf)
+
+funnel(tf,
+       xlab    = "Mean Difference (g/dL)",
+       main    = "Trim-and-Fill: Adjusted Funnel Plot",
+       col     = "steelblue",
+       bg      = adjustcolor("steelblue", alpha = 0.4),
+       refline = coef(tf),
+       legend  = TRUE)
+```
+
+Trim-and-fill assumes asymmetry is entirely due to publication bias, which isn't always true — small-study effects can arise from genuine biological reasons (e.g., smaller trials may select more deficient populations or use higher doses). I treat the adjusted estimate as a sensitivity check, not a corrected truth.
+
+---
+
+## Sensitivity & Influence Analysis
+
+### Leave-One-Out Analysis
+
+Refits the model $k$ times, each time dropping one study. If removing a single study shifts the pooled estimate substantially, the result isn't robust.
+
+```{r leave-one-out, fig.height=9}
+loo <- leave1out(res)
+
+par(mar = c(5, 10, 4, 2))
+forest(
+  x      = loo$estimate,
+  ci.lb  = loo$ci.lb,
+  ci.ub  = loo$ci.ub,
+  slab   = dat$author,
+  xlab   = "Pooled MD (g/dL) with Study Removed",
+  main   = "Leave-One-Out Sensitivity Analysis",
+  refline = coef(res),
+  cex    = 0.8,
+  header = "Study Removed"
+)
+```
+
+### Influence Diagnostics
+
+```{r influence-diagnostics, fig.height=10}
+inf <- influence(res)
+plot(inf, plotdfb = TRUE)
+```
+
+Key thresholds: studentised residuals > |2| flag outliers; Cook's distance identifies disproportionate influence; hat values > $2p/k$ indicate high leverage. In my experience with iron supplementation meta-analyses, outlier studies usually trace back to methodological differences — different formulations, co-interventions, or population characteristics.
+
+---
+
+## Summary & Conclusions
+
+### Key Findings
+
+```{r summary-table}
+tibble(
+  Metric = c(
+    "Pooled MD (g/dL)",
+    "95% Confidence Interval",
+    "95% Prediction Interval",
+    "Between-study variance (tau^2)",
+    "I-squared (%)",
+    "Cochran's Q (p-value)",
+    "Egger's test (p-value)",
+    "Trim-and-fill adjusted MD",
+    "Studies included (k)"
+  ),
+  Value = c(
+    sprintf("%.2f", coef(res)),
+    sprintf("%.2f to %.2f", res$ci.lb, res$ci.ub),
+    sprintf("%.2f to %.2f", predict(res)$pi.lb, predict(res)$pi.ub),
+    sprintf("%.4f", res$tau2),
+    sprintf("%.1f%%", res$I2),
+    sprintf("%.2f (p = %s)", res$QE, formatC(res$QEp, format = "e", digits = 2)),
+    sprintf("p = %.3f", egg$pval),
+    sprintf("%.2f", coef(tf)),
+    as.character(res$k)
+  )
+) %>%
+  kable(caption = "Summary of Meta-Analytic Results") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"), full_width = FALSE)
+```
+
+### Analytical Workflow
+
+```
+  ┌─────────────────────────────┐
+  │  Study-Level Data (k = 18)  │
+  │  Mean differences + SEs     │
+  └──────────────┬──────────────┘
+                 │
+                 ▼
+  ┌─────────────────────────────┐
+  │  Random-Effects Model       │
+  │  (REML estimation)          │
+  │  → Pooled MD + 95% CI      │
+  └──────────────┬──────────────┘
+                 │
+        ┌────────┼────────┐
+        ▼        ▼        ▼
+  ┌──────────┐ ┌───────┐ ┌──────────────┐
+  │Hetero-   │ │Pub.   │ │ Sensitivity  │
+  │geneity   │ │Bias   │ │ Analysis     │
+  ├──────────┤ ├───────┤ ├──────────────┤
+  │ I^2      │ │ Funnel│ │ Leave-1-out  │
+  │ tau^2    │ │ Egger │ │ Influence    │
+  │ Q test   │ │ T&F   │ │  diagnostics │
+  │ Baujat   │ │       │ │              │
+  │ GOSH     │ │       │ │              │
+  └──────┬───┘ └───┬───┘ └──────┬───────┘
+         │         │             │
+         ▼         ▼             ▼
+  ┌─────────────────────────────┐
+  │  Subgroup Analysis &        │
+  │  Meta-Regression            │
+  │  → Dose, Duration, Status   │
+  └─────────────────────────────┘
+```
+
+### Reproducibility
+
+This analysis is self-contained. To replicate:
+
+1. Install required packages: `install.packages(c("metafor", "tidyverse", "knitr", "kableExtra"))`
+2. Render: `quarto render meta-analysis.qmd`
+3. All data, code, and outputs are embedded — no external files required
+
+---
+
+## Session Information
+
+```{r session-info}
+sessionInfo()
+```
