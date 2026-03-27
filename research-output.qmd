@@ -1,0 +1,175 @@
+---
+title: ""
+page-layout: full
+toc: true
+toc-depth: 2
+---
+
+```{=html}
+<div class="hero">
+  <div class="hero-inner">
+    <h1 class="hero-name">Research Output</h1>
+    <p class="hero-tagline">
+      Conferences &nbsp;·&nbsp; Presentations &nbsp;·&nbsp; Media &nbsp;·&nbsp; Peer Review &nbsp;·&nbsp; Funding
+    </p>
+  </div>
+</div>
+```
+
+---
+
+## Conference Presentations
+
+| Year | Conference | Title | Location | Type |
+|------|-----------|-------|----------|------|
+| 2025 | Sports Medicine Australia | Iron deficiency screening in community sport | Online | Oral |
+| 2024 | NATA Annual Meeting | IRONWOMAN trial: IV iron in exercising females | New Orleans, USA | Oral |
+| 2024 | Sports Dietitians Australia | Iron supplementation in active females | Online | Invited Oral |
+| 2023 | AIS Research Symposium | Biomarker modelling for iron depletion | Canberra, Australia | Oral |
+| 2023 | Iron Disorders Institute | IV iron in non-anaemic deficiency | Online | Oral |
+| 2022 | Sports Medicine Australia | IV iron vs oral iron in exercising females | Adelaide, Australia | Oral |
+| 2022 | ACSM Annual Meeting | Menstrual blood loss and iron status | San Diego, USA | Oral |
+| 2022 | UWA Research Showcase | Screening 3000 females for iron deficiency | Perth, Australia | Poster |
+| 2021 | ISTRC (Int. Society for Twin Research Congress) | The misogyny of iron deficiency | Online | Oral |
+| 2021 | Sports Medicine Australia | Altitude training and blood glucose in T1D | Online | Oral |
+| 2021 | Exercise & Sports Science Australia | sTfR/ferritin modelling in exercising females | Online | Oral |
+| 2020 | UWA Postgraduate Symposium | Iron deficiency in exercising females | Perth, Australia | Oral |
+| 2020 | Sports Medicine Australia | Iron deficiency and athletic performance | Online | Poster |
+| 2019 | Sports Medicine Australia | IRONWOMAN trial: study protocol | Canberra, Australia | Oral |
+| 2019 | UWA Research Showcase | Iron biomarker screening in females | Perth, Australia | Poster |
+| 2019 | Exercise & Sports Science Australia | Iron supplementation meta-analysis | Brisbane, Australia | Poster |
+| 2018 | Exercise & Sports Science Australia | Altitude and T1D glucose management | Brisbane, Australia | Oral |
+| 2018 | Sports Medicine Australia | Type 1 diabetes and high-altitude sport | Melbourne, Australia | Poster |
+| 2018 | UWA Honours Symposium | Glucose regulation at altitude in T1D | Perth, Australia | Oral |
+
+---
+
+## Invited Presentations
+
+| Year | Title | Venue / Event | Audience |
+|------|-------|--------------|----------|
+| 2024 | Iron and the Human Body | UWA School of Human Sciences — IMED1108 | Medical students |
+| 2024 | Navigating iron deficiency in clinical practice | Pennington Biomedical Research Centre | Research staff & fellows |
+| 2023 | Iron and the Human Body | UWA School of Human Sciences — IMED1108 | Medical students |
+| 2023 | Iron deficiency in exercising females: what we now know | PESA WA (Physical Education & Sport Association) | PE educators |
+| 2022 | Iron in the diet: from food to physiology | UWA School of Human Sciences — IMED1108 | Medical students |
+| 2022 | Iron deficiency beyond anaemia | UWA Postgraduate Research Symposium | Postgraduate researchers |
+| 2021 | Novel research in T1D and high-altitude exercise | UWA Diabetes Research Group | Clinicians & researchers |
+
+---
+
+## Media Engagement
+
+```{=html}
+<div class="project-card">
+  <h3>🎙 ABC Radio National</h3>
+  <p>Interview on iron deficiency in women and the IRONWOMAN trial — discussing why female athletes are disproportionately affected and what the evidence says about treatment. <em>2024</em></p>
+  <div class="project-tags">
+    <span class="project-tag">Radio</span>
+    <span class="project-tag">Iron Deficiency</span>
+    <span class="project-tag">IRONWOMAN</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>🗞 Medpage Today</h3>
+  <p>Featured coverage of the IRONWOMAN RCT findings — IV iron supplementation in exercising females. Article highlighted clinical implications for sports medicine practitioners. <em>2025</em></p>
+  <div class="project-tags">
+    <span class="project-tag">Online Media</span>
+    <span class="project-tag">Clinical Trials</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>🗞 Healio (Hematology/Oncology)</h3>
+  <p>Coverage of iron deficiency research findings and the gap in diagnosis for non-anaemic iron deficiency in active populations. <em>2024</em></p>
+  <div class="project-tags">
+    <span class="project-tag">Online Media</span>
+    <span class="project-tag">Haematology</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>📰 UWA News</h3>
+  <p>University press feature on the IRONWOMAN trial — one of the largest RCTs examining iron supplementation in exercising females. Multiple features across 2022–2025. <em>2022–2025</em></p>
+  <div class="project-tags">
+    <span class="project-tag">University Press</span>
+    <span class="project-tag">Research Feature</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>📰 Medical Life Sciences News</h3>
+  <p>Feature article on the Cochrane systematic review of IV iron in non-anaemic iron deficiency — summarising findings for a clinical audience. <em>2023</em></p>
+  <div class="project-tags">
+    <span class="project-tag">Online Media</span>
+    <span class="project-tag">Systematic Review</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>📰 Sports Injury Bulletin</h3>
+  <p>Article discussing iron supplementation strategies and monitoring protocols for athletic populations — translating trial findings into practitioner guidance. <em>2023</em></p>
+  <div class="project-tags">
+    <span class="project-tag">Trade Publication</span>
+    <span class="project-tag">Sports Medicine</span>
+  </div>
+</div>
+```
+
+---
+
+## Peer Review Activity
+
+**Active reviewer for 22+ journals** across haematology, sports science, nutrition, and clinical medicine.
+
+```{=html}
+<div class="toolkit-row">
+  <span class="toolkit-chip">BMJ</span>
+  <span class="toolkit-chip">BJSM</span>
+  <span class="toolkit-chip">Nature Scientific Reports</span>
+  <span class="toolkit-chip">American Journal of Haematology</span>
+  <span class="toolkit-chip">J Cachexia Sarcopenia Muscle</span>
+  <span class="toolkit-chip">Medicine & Science in Sports & Exercise</span>
+  <span class="toolkit-chip">Anaesthesia</span>
+  <span class="toolkit-chip">PLOS One (Academic Editor)</span>
+  <span class="toolkit-chip">Women's Health (Guest Editor)</span>
+  <span class="toolkit-chip">European Journal of Sport Science</span>
+  <span class="toolkit-chip">International Journal of Sport Nutrition</span>
+  <span class="toolkit-chip">Journal of Sports Sciences</span>
+  <span class="toolkit-chip">Nutrients</span>
+  <span class="toolkit-chip">Frontiers in Physiology</span>
+  <span class="toolkit-chip">Journal of the International Society of Sports Nutrition</span>
+  <span class="toolkit-chip">Applied Physiology Nutrition and Metabolism</span>
+  <span class="toolkit-chip">Vox Sanguinis</span>
+  <span class="toolkit-chip">Transfusion</span>
+  <span class="toolkit-chip">Blood Transfusion</span>
+  <span class="toolkit-chip">Journal of Sports Medicine and Physical Fitness</span>
+  <span class="toolkit-chip">International Journal of Environmental Research and Public Health</span>
+  <span class="toolkit-chip">PLOS ONE</span>
+</div>
+```
+
+---
+
+## Research Funding
+
+**Total research funding: >$1M AUD**
+
+| Grant / Award | Funder | Year | Value (AUD) | Role |
+|--------------|--------|------|-------------|------|
+| IRONWOMAN Pharmacosmos RCT | Pharmacosmos A/S | 2019 | $555,460 | Co-investigator |
+| RTP PhD Studentship | University of Western Australia | 2020 | $190,500 | Recipient |
+| NHMRC DARP Clinical Trial | NHMRC | 2023 | $60,000 | CI |
+| Telethon Kids Institute Seeding Grant | Telethon Kids | 2019 | $17,000 | Co-investigator |
+| Pharmacosmos PhD Top-Up Scholarship | Pharmacosmos A/S | 2019 | $30,000 | Recipient |
+| NHMRC CRE Honours Scholarship | NHMRC | 2018 | $5,000 | Recipient |
+| Frank Pyke Memorial Scholarship | UWA | 2018 | $5,000 | Recipient |
+| NATA Travel Grant | NATA | 2023 | $5,000 | Recipient |
+| UWA Postgraduate Travel Award | University of Western Australia | 2022 | $2,500 | Recipient |
+| ESSA Conference Bursary | Exercise & Sports Science Australia | 2019 | $1,000 | Recipient |
+| SMA Conference Bursary | Sports Medicine Australia | 2021 | $1,000 | Recipient |
+
+---
+
+*Dr. C. W. Dugan &nbsp;·&nbsp; March 2026 &nbsp;·&nbsp; Baton Rouge, LA*

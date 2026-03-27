@@ -1,0 +1,95 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<div class="hero">
+  <div class="hero-inner">
+    <h1 class="hero-name">Projects</h1>
+    <p class="hero-tagline">
+      Reproducible analyses, clinical trial work, and applied biostatistics — documented in R and Python.
+    </p>
+  </div>
+</div>
+```
+
+---
+
+## Featured Projects
+
+```{=html}
+<div class="project-card">
+  <h3>Iron Biomarker Modelling — Body Iron Calculation Pipeline</h3>
+  <p>Implementation of the Cook et al. body iron formula using soluble transferrin receptor (sTfR) and serum ferritin. Demonstrates the non-linear relationship between ferritin and total body iron stores — critical for identifying iron depletion in exercising females where ferritin alone is insufficient.</p>
+  <div class="project-tags">
+    <span class="project-tag">R</span>
+    <span class="project-tag">ggplot2</span>
+    <span class="project-tag">dplyr</span>
+    <span class="project-tag">Biomarker Modelling</span>
+    <span class="project-tag">Women's Health</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>IRONWOMAN RCT — Statistical Analysis Plan</h3>
+  <p>Double-blind, placebo-controlled randomised controlled trial examining iron supplementation in exercising females. Includes power calculations, randomisation protocol, linear mixed-effects modelling for longitudinal outcomes, and sensitivity analyses for missing data.</p>
+  <div class="project-tags">
+    <span class="project-tag">R</span>
+    <span class="project-tag">lme4</span>
+    <span class="project-tag">RCT Design</span>
+    <span class="project-tag">Longitudinal Analysis</span>
+    <span class="project-tag">Clinical Trials</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3><a href="meta-analysis.html" style="color: inherit; text-decoration: none;">Meta-Analysis — Iron Supplementation in Exercising Females</a></h3>
+  <p>Systematic review and random-effects meta-analysis of iron supplementation interventions. Includes forest plots, funnel plots, heterogeneity assessment (I²), and subgroup analyses by supplementation dose and baseline iron status. <a href="meta-analysis.html" class="project-tag" style="text-decoration: none;">View Full Analysis →</a></p>
+  <div class="project-tags">
+    <span class="project-tag">R</span>
+    <span class="project-tag">meta</span>
+    <span class="project-tag">metafor</span>
+    <span class="project-tag">Systematic Review</span>
+    <span class="project-tag">Forest Plots</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>EHR-Scale Iron Deficiency Prediction — All of Us Research Program</h3>
+  <p>Full-stack health data science pipeline leveraging the NIH All of Us dataset (633K+ participants). Extracts iron biomarker data from OMOP-standardised EHR via BigQuery/SQL, then builds LASSO and Elastic Net models to predict iron deficiency from routinely collected clinical data. <em>Full analysis page coming soon.</em></p>
+  <div class="project-tags">
+    <span class="project-tag">R</span>
+    <span class="project-tag">SQL / BigQuery</span>
+    <span class="project-tag">OMOP CDM</span>
+    <span class="project-tag">glmnet</span>
+    <span class="project-tag">LASSO / Elastic Net</span>
+    <span class="project-tag">ROC / AUC</span>
+    <span class="project-tag">Cloud Infrastructure</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>ML Pipeline — Predictive Modelling for Iron Deficiency Risk</h3>
+  <p>Logistic regression and LASSO-regularised classification pipeline to predict iron deficiency risk from demographic and dietary variables. Includes cross-validation, ROC analysis, and feature importance via coefficient shrinkage. <em>In development — Stanford AI in Healthcare capstone.</em></p>
+  <div class="project-tags">
+    <span class="project-tag">Python</span>
+    <span class="project-tag">scikit-learn</span>
+    <span class="project-tag">LASSO</span>
+    <span class="project-tag">ROC / AUC</span>
+    <span class="project-tag">ML for Health</span>
+  </div>
+</div>
+```
+
+---
+
+## Statistical Methods
+
+The Cook et al. body iron formula linearises iron stores distribution for regression modelling:
+
+$$\text{Body Iron (mg/kg)} = -\frac{\log_{10}(\text{sTfR} \times 1000\ /\ \text{Ferritin}) - 2.8229}{0.1207}$$
+
+*sTfR* = soluble transferrin receptor (mg/L); *Ferritin* = serum ferritin (µg/L). Negative values indicate iron depletion.
+
+This approach enables continuous body iron as a regression outcome rather than binary deficiency classification — particularly relevant when specifying linear mixed-effects models with repeated-measures iron status data.
