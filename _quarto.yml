@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dr. Cory Dugan | Biostatistician"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: meta-analysis.qmd
+        text: Meta-Analysis
+      - href: cv.qmd
+        text: CV
+      - href: research-output.qmd
+        text: Research Output
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/cory-dugan-phd/
+        aria-label: LinkedIn
+
+format:
+  html:
+    theme:
+      - darkly
+      - styles.css
+    toc: false
