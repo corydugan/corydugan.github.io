@@ -1,0 +1,376 @@
+---
+title: ""
+page-layout: full
+toc: true
+toc-depth: 2
+toc-location: right
+---
+
+```{=html}
+<div class="hero">
+  <div class="hero-inner">
+    <h1 class="hero-name">Curriculum Vitae</h1>
+    <p class="hero-tagline">
+      Dr. Cory William Dugan &nbsp;·&nbsp; PhD &nbsp;·&nbsp; AFHEA
+    </p>
+  </div>
+</div>
+```
+
+## Cory Dugan, PhD
+
+**Postdoctoral Research Fellow** | Pennington Biomedical Research Center
+
+Investigating the complex relationships between nutrition, metabolism, and human health — with a focus on iron metabolism, women's health, military nutrition, and data science.
+
+[LinkedIn](https://www.linkedin.com/in/cory-dugan-phd/) | [Email](mailto:cory.dugan1@gmail.com)
+
+---
+
+## Education
+
+### Doctor of Philosophy — Nutrition & Exercise Physiology
+**The University of Western Australia** | 2020–2024
+
+*PhD Title:* "Iron and women's health: A multidimensional exploration of iron deficiency, management, and treatment in active females"
+
+This thesis provides a multidimensional understanding of iron-deficiency in women. Initial research systematically reviews contemporary literature, challenging diagnostic standards and evaluating treatment efficacy. Key insights were gained through targeted screening, revealing high prevalence and interplay between exercise, menstrual health, and iron metabolism among women. By integrating perspectives and preferences of women with empirical evidence, advancements were made in tailoring treatment approaches, underscoring the efficacy of intravenous-iron-therapy. Findings suggest a paradigm shift in iron-deficiency management for women.
+
+Skills: Biostatistics, Clinical Trials, Epidemiology, Meta-Analysis, R Programming, Systematic Review
+
+### Bachelor of Science (Honours) — Sports Science
+**The University of Western Australia** | 2018–2019
+
+A randomised cross-over study examining the efficacy of intravenous iron infusion vs. oral iron supplementation on markers of iron status, exercise performance, and fatigue in healthy iron deficient women.
+
+Skills: ANOVA, Clinical Trials, Data Reporting, Mixed Methods, Phlebotomy, R Programming, Scientific Writing, Venepuncture
+
+### Bachelor of Science — Nutrition
+**Curtin University** | 2015–2017
+
+Dean's Merit List (2017), Graduate with Distinction.
+
+Skills: Critical Thinking, Food Science, Microbiology, Nutrition, Physiology, Public Health, Research
+
+### Diploma — Exercise & Sport Science
+**The University of Notre Dame Australia** | 2013–2014
+
+Skills: Anatomy, Exercise Physiology, Exercise Science
+
+### Bachelor of Science — Sports Science & Exercise Science
+**Manchester Metropolitan University** | 2010–2013
+
+Graduated with first-class honours.
+
+Skills: Anatomy, Exercise Physiology, Exercise Science, Physiology, Sports Science
+
+---
+
+## Professional Experience
+
+### Postdoctoral Research Fellow
+**Pennington Biomedical Research Centre** | 2025–Present | Full-time
+
+Research focuses on interactions between nutrition, metabolism, and health, with emphasis on iron regulation and its impact on physiological function.
+
+### Founder
+**HolisticHer** | 2024–Present
+
+Cofounder of HolisticHer — a holistic women's health coaching and wellness business providing personalised, evidence-based programs.
+
+### Director
+**P∆R∆DOX Health & Wellbeing** | 2024–Present
+
+Developed comprehensive wellbeing platform focusing on functional, integrative health solutions.
+
+### Adjunct Research Fellow
+**Curtin University** | 2024–Present | Part-time
+
+Conducting collaborative international research bridging nutrition and exercise physiology.
+
+### Tutor / Lecturer
+**The University of Western Australia** | 2022–Present | Part-time
+
+Teaching Applied Professional Business Communications and Musculoskeletal System units.
+
+### Clinical Research Assistant
+**The University of Western Australia** | 2019–2024 | Full-time
+
+Clinical-lead and project management of the DARP trial — a Phase-4 randomised clinical trial examining iron therapy efficacy.
+
+### Research Assistant
+**Telethon Kids Institute** | 2019–2022 | Part-time
+
+Research assistant at Children's Diabetes Centre, responsible for clinical data management and physiological testing.
+
+### Research Assistant
+**The University of Western Australia** | 2018–2020 | Part-time
+
+Mining ergonomics and human performance research group.
+
+### Science Communication (Volunteer)
+**Scitech** | 2018–2019
+
+Interactive science demonstrations to promote STEM learning.
+
+### Athletic Performance Coach
+**Perth Glory FC** | 2018–2019
+
+Strength and conditioning coaching for elite A-League football club.
+
+---
+
+## Teaching
+
+| Unit | School | Role | Years |
+|------|--------|------|-------|
+| Applied Professional Business Communications (BUSN5100) | UWA Business School | Tutor & Lecturer | 2023–2025 |
+| The Musculoskeletal System and Movement (SSEH1101) | UWA Human Sciences | Lab Demonstrator | 2021–2024 |
+| Exercise Physiology (SSEH2204) | UWA Human Sciences | Lab Demonstrator | 2021–2023 |
+| Issues in Women's Health across the Lifespan (IMED1108) | UWA Medical School | Guest Lecturer | 2022–2024 |
+| Living with Chronic Disease (IMED3301) | UWA Medical School | Guest Lecturer | 2024 |
+
+---
+
+## Supervision
+
+| Student | Project Title | Level | Role | Years |
+|---------|---------------|-------|------|-------|
+| Ms. Kanon Uchiyama | Rest Break Frequency and Performance in Mining Simulations | Masters | Secondary Supervisor | 2022–Present |
+| Mr. Samuel Kell | Exploring appetite suppression and oxidative stress after maximal sprint effort | Masters | Secondary Supervisor | 2023–Present |
+| Ms. Caitlin Atwell | Dietary Iron and the Elite Dancer | Honours | Secondary Supervisor | 2023–Present |
+| Mr. Arjan Ruba | Investigating hydration's impact on tennis performance | Undergraduate | Co-Supervisor | 2024 |
+
+---
+
+## Honours & Awards
+
+| Award | Year | Type | Organisation | Amount |
+|-------|------|------|-------------|--------|
+| Wiley Top Downloaded Article (Transfusion) | 2025 | Prize | Wiley Publishing | |
+| British Journal of Sports Medicine — PhD Academy Award | 2024 | Award | BJSM | |
+| NATA Annual Symposium Travel Grant | 2023 | Grant | NATA | $5,000 |
+| UWA Research Collaboration Award | 2023 | Award | UWA | |
+| Transfusion (Wiley) Top Downloaded Article | 2023 | Prize | Wiley | |
+| Aus.Iron Best Emerging Researcher | 2022 | Award | Aus.Iron | |
+| Graduate Women (WA) Merit Award for Academic Excellence | 2022 | Award | Graduate Women WA | |
+| Stan & Jean Perron Award for Excellence in Science | 2022 | Award | UWA | |
+| Forrest Research Foundation – Top-Up Scholarship | 2020 | Grant | Forrest Research Foundation | $24,000 |
+| Australian Government RTP Stipend | 2020 | Grant | Australian Government | $112,500 |
+| Australian Government RTP Tuition Fee Offset | 2020 | Grant | Australian Government | |
+| Nutrition Society of Australia Honours Prize | 2019 | Award | NSA | |
+| UWA Human Sciences Honours Commendation | 2019 | Award | UWA | |
+| Curtin University Dean's Merit List | 2017 | Award | Curtin University | |
+
+---
+
+## Certifications
+
+| Certification | Organisation | Year |
+|---------------|-------------|------|
+| Standard Mental Health First Aider | Mental Health First Aid International | 2024 |
+| R — Data Use in Science (High Distinction, SCIE4401) | UWA | 2022 |
+| Statistics in R | Australian and New Zealand Society for Immunology | 2021 |
+| Responsible Conduct of Research in Australia | UWA | 2020 |
+| Good Clinical Practice (GCP) | NHMRC | 2019 |
+| National Police Check | Government of Western Australia | 2019 |
+| Certificate IV in Fitness | Australian Institute of Personal Trainers | 2015 |
+| Working with Children Check | Government of Western Australia | 2015 |
+| Provide First Aid (HLTAID003) | St John Ambulance Australia | 2014 |
+| Standard 11 Football Coaching Certificate | The FA | 2014 |
+| Certificate III in Fitness | Australian Institute of Personal Trainers | 2014 |
+
+---
+
+## Publications
+
+1. MacLean, B., Lim, J., Fuller, J., Wylie, R., Joo, J. Y., Al-Sharea, A., Cheyyur, J., Ng, H., Zhang, S., Ahmed, M., & **Dugan, C.** (2025). Community screening for iron deficiency in reproductive aged women: Lessons learnt from Australia. *Vox Sanguinis, 120*(1), 22-31.
+
+2. **Dugan, C.**, Scott, C., Abeysiri, S., Baikady, R. R., & Richards, T. (2024). The need to screen for anemia in exercising women. *Medicine, 103*(39).
+
+3. Clarke, B., **Dugan, C.**, Engel, J., Baikady, R. R., & Richards, T. (2025). Addressing the Gender Divide in Iron Deficiency: A Call for Inclusive Diagnostic Criteria. *Internal Medicine Journal*.
+
+4. **Dugan, C.**, Cabrera, A.N., & Hennigar, S.R. (2024). Residence at Moderate Altitude Is Associated with Lower Risk of Type 2 Diabetes. *Journal of Clinical Endocrinology & Metabolism*.
+
+5. **Dugan, C.**, & Hensen, T. (2025). Iron deficiency in female athletes: Lessons from iron-deficient, non-anaemic women — A narrative review. *Transfusion*.
+
+6. **Dugan, C.**, MacLean, B., Abeysiri, S., Baikady, R. R., & Richards, T. (2024). Treatment thresholds for iron deficiency: a systematic analysis. *Blood Advances*.
+
+7. **Dugan, C.**, Cabrera, A.N., & Hennigar, S.R. (2024). Dietary Sources and Determinants of Iron Intake in the US Military. *Military Medicine*.
+
+8. **Dugan, C.**, Richards, T., & Peeling, P. (2024). Intravenous Iron Suppresses Erythropoiesis, Elevates Hepcidin, and Improves Patient-Reported Outcomes in Iron Deficient, Active Females: A Secondary Analysis of a Randomised Controlled Trial. *Nutrients, 16*(2), 197.
+
+9. **Dugan, C.**, MacLean, B., Cabrera, A. N., & Hennigar, S. R. (2023). Iron Status of Young Adult Women Living in the United States. *American Journal of Clinical Nutrition, 118*(5), 878-886.
+
+10. **Dugan, C.**, Peiffer, J. J., Garvican-Lewis, L., Osborne, J., & Peeling, P. (2023). Multivariable Assessment of Iron Status in Female Collegiate Athletes. *Journal of Sports Sciences*, 1-10.
+
+11. **Dugan, C.**, Abeysiri, S., & Richards, T. (2022). Systematic review and meta-analysis of IV iron therapy for adults with non-anaemic iron deficiency. *Journal of Cachexia, Sarcopenia and Muscle, 13*(6), 2655-2667.
+
+12. **Dugan, C.**, & Richards, T. (2023). Screening for iron deficiency: Are we doing enough? *Transfusion*.
+
+13. **Dugan, C.**, & MacLean, B. (2023). Intravenous Iron Leads to Lower Rates of Anaemia in the Australian Community. *Journal of Clinical Medicine, 12*(16).
+
+14. MacLean, B., **Dugan, C.**, Engel, J., & Richards, T. (2023). Screening for Iron Deficiency. *Journal of Clinical Medicine*.
+
+15. **Dugan, C.**, Jeftic, I., Engel, J., Murch, S. D., & Peiffer, J. J. (2022). The influence of rest break frequency and duration on physical performance and psychophysiological responses: a mining simulation study. *European Journal of Applied Physiology*.
+
+16. **Dugan, C.**, Murch, S. D., Peiffer, J. J., & Jeftic, I. (2021). Effect of an altitude-heat combination on resting metabolism in healthy males. *Journal of Clinical Endocrinology & Metabolism*.
+
+17. **Dugan, C.**, Agostinelli, P. J., Van den Berghe, P. A., & Barry, A. E. (2023). Race differences in prevalence and treatment of iron deficiency in premenopausal women. *Journal of Women's Health*.
+
+18. **Dugan, C.**, Abeysiri, S., Baikady, R.R., Richards, T. (2021). Quantifying Fatigue in Iron Deficiency: Validation of the Iron Deficiency Fatigue Scale (IDFS). *Anaesthesia*.
+
+---
+
+## Conference Proceedings
+
+### 2025
+- Residence at moderate altitude increases hemoglobin mass... | Pennington Biomedical Research Center Symposium
+
+### 2024
+- Intravenous Iron Leads to Lower Rates of Anaemia in Australia | NATA Bologna, Italy
+- Iron and Female Athletes | AusIron 2024
+- What is 'Normal' Iron Metabolism | Aus.Iron
+- The need to screen for anemia in exercising women | ACSM
+- Iron Status of Young Adult Women Living in the United States | ACSM
+
+### 2023
+- Intravenous Iron Leads to Lower Rates of Anaemia in the Australian Community | Aus.Iron
+- Treatment thresholds for iron deficiency: a systematic analysis | Aus.Iron
+- Towards Better Iron Screening in Women | NATA
+
+### 2022
+- Quantifying Fatigue in Iron Deficiency | Aus.Iron
+- Validating a Patient Reported Outcome Measure of Iron Deficiency | ANZSBT
+- IV Iron for Non-Anaemic Iron Deficiency | NATA
+
+### 2021
+- Iron status in female university athletes | Sports Dietitians Australia
+
+### 2020
+- A meta-analysis to determine the effectiveness of intravenous iron | Sports Dietitians Australia
+
+---
+
+## Research Funding
+
+| Grant | Year | Funder | Amount (AUD) | Co-investigators |
+|-------|------|--------|-------------|-----------------|
+| Pharmacosmos Randomised Control Trial Grant | 2019 | Pharmacosmos | $550,000 | |
+| Australian Government RTP Stipend | 2020 | Australian Government | $112,500 | |
+| NHMRC Investigator Grant: DARP Clinical Trial | 2023 | NHMRC | $60,000 | Prof. Paul Fournier |
+| Pharmacosmos PhD Top Up Scholarship | 2019 | Pharmacosmos | $30,000 | |
+| Telethon Kids Institute Seeding Grant | 2019 | Telethon Kids Institute | $10,000 | |
+| NATA Annual Symposium Travel Grant | 2023 | NATA | $5,000 | |
+| Aus.Iron Research Conference Travel Grant | 2022 | Aus.Iron | $2,000 |
+
+---
+
+## Invited Presentations
+
+| Title | Year | Venue |
+|-------|------|-------|
+| Iron and the human body | 2024 | UWA IMED1108 |
+| Women's health student research symposium | 2024 | UWA IMED3301 |
+| Iron and the Human Body | 2024 | UWA IMED1108 |
+| Issues in women's health across the lifespan | 2023 | UWA |
+| Iron and the human body | 2023 | IMED1108 |
+| Iron in the diet | 2022 | Physical Education Students Association |
+| Novel research in exercise and type 1 diabetes | 2021 | Type 1 Diabetes Family Centre |
+
+---
+
+## Peer Review
+
+**Editorial Roles:** Academic Editor (PLOS One), Guest Editor (Women's Health)
+
+**Paid Reviewer:** Journal of Medical Economics (2025), BMC Public Health (2025)
+
+**Journals Reviewed For:** Critical Care Research, Scientific Reports (Nature), International Journal of Sport Nutrition & Exercise Metabolism, Nutrition, BMJ, Journal of Cachexia Sarcopenia and Muscle, Global Pediatric Health, British Journal of Surgery, International Journal of Clinical Practice, Clinical Medicine Insights, British Journal of Anaesthesia, High Altitude Medicine & Biology, American Journal of Hematology, Health and Quality of Life Outcomes, Journal of Sports Science & Medicine, Nutrients, European Journal of Applied Physiology, Frontiers in Sports and Active Living
+
+---
+
+## Media Engagement
+
+| Title | Year | Outlet |
+|-------|------|--------|
+| High-altitude living may slash diabetes risk and boost metabolic health | 2026 | MSN |
+| Being at high altitudes could help blood sugar control: Here's why | 2026 | Medical News Today |
+| Ironing out Iron Deficiency in Female Athletes | 2025 | Sports Injury Bulletin |
+| Gaslit, dismissed and treated as hypochondriacs: The gender divide in iron deficiency | 2025 | Brisbane Times |
+| News story — iron deficiency gender divide | 2025 | Sydney Morning Herald |
+| Interview — CNN en español | 2025 | CNN |
+| Iron Deficiency in Women | 2025 | BBC Radio |
+| The Gender Divide in Iron Deficiency | 2025 | The Lancet |
+| New Iron Deficiency Criteria for Women | 2025 | PracticeUpdate (Elsevier) |
+| Taking Iron Supplements? Here's When to Take Them, According to Dietitians | 2024 | Health.com |
+| How to Boost Iron Absorption | 2024 | MSN |
+| Thresholds for treatment of iron deficiency need to change | 2024 | Medical Brief |
+| Living with Iron Deficiency | 2024 | ABC Radio Perth |
+| We need to screen for anaemia and iron deficiency in exercising women | 2024 | Medical Brief |
+| Is iron supplementation of exercising women the answer? | 2024 | PracticeUpdate (Elsevier) |
+| UWA PhD research to help women with iron deficiency | 2024 | Perth Now / West Australian |
+| Treating iron deficiency: Where has our evidence gone wrong? | 2024 | PracticeUpdate (Elsevier) |
+| Should You Use an At-Home Iron Test? | 2023 | Health.com |
+| 6 Signs You Need to Eat More Iron, According to Experts | 2023 | Health.com (Dotdash Meredith) |
+| Health benefits of IV iron in people with low iron stores but no anaemia | 2023 | PracticeUpdate (Elsevier) |
+| Screening for iron deficiency should be improved | 2022 | Medical Brief |
+| IV iron meta-analysis | 2022 | Medical Brief |
+| Hot Topic — What to Do with Borderline Iron Results? | 2022 | Sports Dietitians Australia |
+| The effects of altitude and heat combination on resting metabolic rate | 2022 | PracticeUpdate (Elsevier) |
+| Effect of an altitude-heat combination on resting metabolic rate | 2021 | PracticeUpdate (Elsevier) |
+| Altitude-heat combination and resting metabolic rate | 2021 | Faculty Opinions |
+
+---
+
+## Policy Citations
+
+| Policy Document | Issuing Body | Year | Paper Cited |
+|-----------------|-------------|------|-------------|
+| Guidance on implementing patient blood management to improve global blood health status | WHO | 2025 | Systematic review and meta-analysis of IV iron therapy (JCSM 2022) |
+| Heat Injury and Illness Prevention in Outdoor and Indoor Work Settings | OSHA | 2024 | Rest break frequency and duration mining simulation study (EJAP 2022) |
+
+---
+
+## Service & Engagement
+
+### Industry / Government Consultancy
+- Iron optimisation in pregnancy consensus position statement | HOW Collaborative | 2025
+- Australasian Collaboration for Blood Optimisation in Perioperative and Critical Care | ABC-OPC | 2024
+
+### University Committees
+- Empowering Postdoctoral Scholars at Pennington | PBRC | 2025
+- Pennington Biomedical Postdoctoral Association | PBRC | 2025
+- UWA Exercise & Health Advisory Group | 2022
+- Doctoral Students Committee | UWA | 2022
+- PhD Student Representative | UWA | 2020
+
+### Community
+- Tedx UWA | 2021
+- School Open Day Coordinator | UWA | 2022
+
+### Mentoring
+- Graduate Research School peer mentor | UWA | 2022
+- Graduate Research School orientation mentor | UWA | 2021
+- Tutor for Uni Ready | UWA | 2021
+
+### Professional Bodies
+- Reviewer for Nature (Scientific Reports) | 2023
+- Reviewer for The BMJ | 2023
+- Network for the Advancement of Patient Blood Management, Haemostasis and Thrombosis (NATA) | 2021
+- Sports Dietitians Australia (SDA) | 2020
+- Exercise & Sports Science Australia (ESSA) | 2019
+- Aus.Iron Research Conference | 2019
+
+---
+
+## References
+
+*Available upon request*
+
+| Name | Role | Organisation | Relationship |
+|------|------|-------------|-------------|
+| Prof. Toby Richards | Honorary Professor & Vascular Surgeon | University of East London | PhD Supervisor |
+| Prof. Peter Peeling | Professor | University of Western Australia | PhD Supervisor |
+| Dr. Ivan Jeftic | Associate Lecturer | University of Western Australia | Colleague |
+| A.Prof Stephen Hennigar | Associate Professor | Pennington Biomedical Research Center | Postdoc Supervisor |
