@@ -502,6 +502,51 @@ ul li::marker {
   max-width: 1200px;
 }
 
+/* ── Full-width pages (meta-analysis etc.) ── */
+.page-layout-full .page-columns {
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.page-layout-full #quarto-content {
+  max-width: 100%;
+}
+
+.page-layout-full .content {
+  max-width: none;
+}
+
+/* ── Code blocks: wider + horizontal scroll ── */
+div.sourceCode,
+pre.sourceCode,
+pre > code {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre;
+  font-size: 0.85rem;
+}
+
+/* Ensure R output tables don't get squeezed */
+.cell-output-display {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Plots/figures fill available width */
+.cell-output-display img,
+.quarto-figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* kableExtra tables: scrollable if wide */
+.table-responsive,
+.kable-table {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
   .hero {

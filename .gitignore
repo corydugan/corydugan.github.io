@@ -5,4 +5,6 @@
 GitHub portfolio/
 *_cache/
 *_files/
+!docs/**/*_files/
+!docs/**/*_files/**
 *.quarto_ipynb
