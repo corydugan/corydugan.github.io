@@ -86,14 +86,21 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "Dr. Cory Dugan | Biostatistician",
+    "section": "",
+    "text": "Clinical trials, systematic reviews, and population health research — documented in R."
+  },
+  {
+    "objectID": "projects.html#projects",
+    "href": "projects.html#projects",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "",
     "text": "Clinical trials, systematic reviews, and population health research — documented in R."
   },
   {
     "objectID": "projects.html#featured-projects",
     "href": "projects.html#featured-projects",
-    "title": "Projects",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Featured Projects",
     "text": "Featured Projects\n\n  IRONWOMAN RCT — Double-Blind Randomised Controlled Trial\n  A Phase III double-blind, placebo-controlled randomised controlled trial examining the efficacy and safety of intravenous iron supplementation in iron-deficient exercising females. Includes protocol development, randomisation strategy, longitudinal biomarker tracking, and mixed-effects statistical analysis. Published in BJSM, 2025.\n  \n    R\n    lme4\n    RCT Design\n    Clinical Trials\n    Women's Health\n  \n\n\n\n  Systematic Review & Meta-Analysis — Iron Supplementation in Non-Anaemic Iron Deficiency\n  Comprehensive systematic review and random-effects meta-analysis of intravenous iron supplementation for non-anaemic iron deficiency across clinical populations. Includes forest plots, funnel plots, heterogeneity assessment (I²), publication bias analysis, and subgroup investigations. Cited by WHO. View Full Analysis →\n  \n    R\n    metafor\n    Systematic Review\n    Meta-Analysis\n    Forest Plots\n  \n\n\n\n  Population Iron Deficiency Screening — 10,000+ Females\n  Large-scale population screening study characterising iron deficiency prevalence, clinical presentation, and biomarker profiles across sporting populations, shopping centres, and universities. Cross-sectional survey design with comprehensive iron biomarker assessment. Results published across multiple journals including Vox Sanguinis, 2025.\n  \n    R\n    Cross-sectional Survey\n    Epidemiology\n    Women's Health\n    Population Health\n  \n\n\n\n  DARP Trial — Phase IV RCT in Type 1 Diabetes\n  Chief Investigator on a Phase IV randomised controlled trial examining whether drinking water before and during exercise in heat increases hypoglycaemia risk in individuals with type 1 diabetes. NHMRC-funded ($60K). Ongoing study with Prof. Paul Fournier, UWA.\n  \n    R\n    RCT Design\n    Type 1 Diabetes\n    Exercise Physiology\n    Clinical Trials\n  \n\n\n\n  Altitude & Type 1 Diabetes — Effects on Blood Glucose During Exercise\n  Honours thesis investigating simulated high-altitude effects on blood glucose regulation during exercise in individuals with type 1 diabetes. Published in JCEM, 2022 (Altmetric 395; 50+ news outlets). Demonstrates the translational value of physiological research for clinical practice.\n  \n    R\n    Exercise Physiology\n    Type 1 Diabetes\n    Altitude Simulation\n    Clinical Translation"
   },
@@ -212,133 +219,154 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Dr. Cory Dugan | Biostatistician",
+    "section": "",
+    "text": "Researcher. Biostatistician. Health Innovator."
+  },
+  {
+    "objectID": "about.html#about",
+    "href": "about.html#about",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "",
     "text": "Researcher. Biostatistician. Health Innovator."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
-    "title": "About",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Background",
     "text": "Background\nI am a nutrition scientist and biostatistician with a PhD in Nutrition & Exercise Physiology and over seven years of research experience in clinical and translational health sciences. My work sits at the intersection of women’s health, haematology, and applied statistics — grounded in rigorous study design and statistical methods.\nMy research career began with a fundamental observation: iron deficiency in exercising females is chronically underdiagnosed, driven by male-calibrated reference ranges, symptom normalisation, and a near-total absence of large-scale intervention data. That observation shaped my doctoral work and has anchored my research ever since.\nCurrently, I am a Postdoctoral Research Fellow at the Pennington Biomedical Research Centre in Baton Rouge, Louisiana, focusing on iron regulation, nutrition, and metabolic health."
   },
   {
     "objectID": "about.html#research-clinical-experience",
     "href": "about.html#research-clinical-experience",
-    "title": "About",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Research & Clinical Experience",
     "text": "Research & Clinical Experience\nIRONWOMAN Randomised Controlled Trial — Lead researcher on a double-blind, placebo-controlled RCT examining intravenous iron supplementation in iron-deficient exercising females. Designed the protocol, managed randomisation and data collection across multiple timepoints, and led the biostatistical analysis. Published in BJSM, 2025.\nPopulation Iron Deficiency Screening — Screened over 10,000 females across sporting clubs, shopping centres, and universities for health indicators and markers of iron deficiency and anaemia, generating one of the largest observational datasets in this field. Results published across multiple peer-reviewed journals.\nSystematic Reviews & Meta-Analysis — Conducted systematic review and random-effects meta-analysis of intravenous iron supplementation for non-anaemic iron deficiency. Cited by WHO. Published in JCSM, 2022.\nANZ Consensus Statement — Contributed to the Australian and New Zealand consensus position statement on iron optimisation in pregnancy, bridging clinical research and evidence-based practice guidelines. Published in Internal Medicine Journal, 2025.\nPublications — 26 peer-reviewed articles in women’s health, nutrition science, clinical trials, haematology, and exercise physiology across leading journals including BJSM, JAMA Network Open, JCEM, and Anaesthesia."
   },
   {
     "objectID": "about.html#statistical-expertise",
     "href": "about.html#statistical-expertise",
-    "title": "About",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Statistical Expertise",
     "text": "Statistical Expertise\nMy statistical toolkit centres on classical inference and transparent, reproducible methods:\n\n  Meta-Analysis & Systematic Review\n  Mixed-Effects Models\n  RCT Design & Analysis\n  Cross-sectional Survey Design\n  Data Visualization\n  R Programming (tidyverse, ggplot2, metafor, lme4)\n\nPrimary tool: R for all analyses — from data wrangling to statistical modelling to publication-ready visualisation."
   },
   {
     "objectID": "about.html#roles-affiliations",
     "href": "about.html#roles-affiliations",
-    "title": "About",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Roles & Affiliations",
     "text": "Roles & Affiliations\n\n  Postdoctoral Research Fellow · Pennington Biomedical Research Centre\n  Research Officer (Chief Investigator) · University of Western Australia\n  Adjunct Research Fellow · Curtin University\n  Founder · HolisticHer\n  Director · P∆R∆DOX Health & Wellbeing\n\nHolisticHer is a women’s health initiative I founded to translate evidence-based research on iron, nutrition, and exercise physiology into accessible, actionable guidance for women — closing the gap between academic findings and real-world impact."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
-    "title": "About",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Education",
     "text": "Education\n\nPhD — Nutrition & Exercise Physiology, University of Western Australia (2020–2024). Thesis: Iron and women’s health: A multidimensional exploration of iron deficiency, management, and treatment in active females\nAFHEA — Associate Fellowship of the Higher Education Academy (UK Professional Standards Framework), 2022\nBSc (First Class Honours) — Bioenergetics, University of Western Australia (2018–2019). Thesis: Effects of simulated high altitude on blood glucose in type 1 diabetes. Altmetric score 395 (top 5% of all research).\nBSc — Sport & Exercise Science, University of Western Australia (2018–2019). WAM 88.25, GPA 7.0"
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
-    "title": "About",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Contact",
     "text": "Contact\n\n  \n     cory.dugan1@gmail.com\n  \n  \n     LinkedIn\n  \n  \n     CV"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Dr. Cory William Dugan",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "",
-    "text": "PhD  ·  AFHEA\n    \n      Nutrition researcher & biostatistician specialising in iron deficiency,\n      women's health, and clinical trial design.\n    \n    \n      Postdoctoral Research Fellow · Pennington Biomedical\n      Research Officer · UWA\n      Adjunct Research Fellow · Curtin University\n      Founder · HolisticHer\n      Director · P∆R∆DOX Health & Wellbeing"
+    "text": "PhD · AFHEA — Nutrition researcher & biostatistician specialising in iron deficiency, women’s health, and clinical trial design.\n\n  Postdoctoral Research Fellow · Pennington Biomedical\n  Research Officer · UWA\n  Adjunct Research Fellow · Curtin University\n  Founder · HolisticHer\n  Director · P∆R∆DOX Health & Wellbeing"
+  },
+  {
+    "objectID": "index.html#dr.-cory-william-dugan",
+    "href": "index.html#dr.-cory-william-dugan",
+    "title": "Dr. Cory Dugan | Biostatistician",
+    "section": "",
+    "text": "PhD · AFHEA — Nutrition researcher & biostatistician specialising in iron deficiency, women’s health, and clinical trial design.\n\n  Postdoctoral Research Fellow · Pennington Biomedical\n  Research Officer · UWA\n  Adjunct Research Fellow · Curtin University\n  Founder · HolisticHer\n  Director · P∆R∆DOX Health & Wellbeing"
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
-    "title": "Dr. Cory William Dugan",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "About",
     "text": "About\nMy PhD and subsequent research have centred on iron deficiency in exercising females — a field defined by chronic underdiagnosis, male-calibrated reference ranges, and a near-total absence of large-scale intervention data.\nI have screened over 10,000 females for health indicators and markers of iron deficiency and anaemia, led the IRONWOMAN double-blind randomised controlled trial, and contributed to the Australian and New Zealand consensus position statement on iron in pregnancy. I have published 26 peer-reviewed articles on women’s health, haematology, clinical trials, and related topics.\nCurrently, I am a Postdoctoral Research Fellow at the Pennington Biomedical Research Centre, focusing on iron regulation, nutrition, and metabolism. My research integrates rigorous biostatistics with translational outcomes — bridging clinical discovery and evidence-based practice."
   },
   {
     "objectID": "index.html#research-focus",
     "href": "index.html#research-focus",
-    "title": "Dr. Cory William Dugan",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Research Focus",
     "text": "Research Focus\n\nIron deficiency & women’s health — diagnosis, management, and intervention in active populations\nClinical trials — design, randomisation, longitudinal analysis, IRONWOMAN RCT\nSystematic reviews & meta-analysis — evidence synthesis on iron supplementation\nPopulation screening — community-based iron deficiency detection and characterisation\nNutrition & exercise physiology — type 1 diabetes, military nutrition, altitude effects"
   },
   {
     "objectID": "index.html#statistical-toolkit",
     "href": "index.html#statistical-toolkit",
-    "title": "Dr. Cory William Dugan",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Statistical Toolkit",
     "text": "Statistical Toolkit\n\n  Meta-Analysis\n  Mixed-Effects Models\n  RCT Design\n  Cross-sectional Surveys\n  R Programming\n  Data Visualization\n  Systematic Review\n  Clinical Trial Management"
   },
   {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
-    "title": "Dr. Cory William Dugan",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Contact",
     "text": "Contact\n\n  \n     cory.dugan1@gmail.com\n  \n  \n     LinkedIn\n  \n  \n     CV"
   },
   {
     "objectID": "research-output.html",
     "href": "research-output.html",
-    "title": "Research Output",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "",
-    "text": "Conferences  ·  Presentations  ·  Media  ·  Peer Review  ·  Funding"
+    "text": "Conferences · Presentations · Media · Peer Review · Funding"
+  },
+  {
+    "objectID": "research-output.html#research-output",
+    "href": "research-output.html#research-output",
+    "title": "Dr. Cory Dugan | Biostatistician",
+    "section": "",
+    "text": "Conferences · Presentations · Media · Peer Review · Funding"
   },
   {
     "objectID": "research-output.html#conference-presentations",
     "href": "research-output.html#conference-presentations",
-    "title": "Research Output",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Conference Presentations",
     "text": "Conference Presentations\n\n\n\n\n\n\n\n\n\n\nYear\nConference\nTitle\nLocation\nType\n\n\n\n\n2025\nPennington Symposium\nResidence at moderate altitude and metabolic markers\nBaton Rouge, LA\nOral\n\n\n2024\nNATA Annual Meeting\nIntravenous Iron Lower Rates of Anaemia in Active Females\nBologna, Italy\nOral\n\n\n2024\nAusIron 2024\nIron and Female Athletes\nOnline\nOral\n\n\n2024\nNATA\nWhat is Normal Iron Metabolism?\nOnline\nOral\n\n\n2024\nNATA\nTikTok and Iron Deficiency Awareness\nOnline\nPoster\n\n\n2024\nNATA\nIRONWOMAN Trial Results\nOnline\nOral\n\n\n2023\nNATA Annual Meeting\nScreening and Assessing Iron Status in Active Women\nOnline\nOral\n\n\n2022\nNATA Annual Meeting\nSystematic Review and Meta-analysis of IV Iron for Non-Anaemic Iron Deficiency\nOnline\nOral\n\n\n2021\nSMA Conference\nAcute Hypoxia and Blood Glucose in Type 1 Diabetes\nOnline\nOral\n\n\n2021\nNATA Annual Meeting\nNeed to Screen for Anaemia in Female Populations\nOnline\nOral\n\n\n2021\nISTRC (Int. Society for Twin Research Congress)\nThe Misogyny of Iron Deficiency\nOnline\nOral\n\n\n2021\nESSA Conference\nMisogyny of Iron Deficiency\nOnline\nOral\n\n\n2021\nESSA Conference\nAcute Hypoxia and Type 1 Diabetes\nOnline\nOral\n\n\n2021\nSMA Conference\nNeed to Screen for Anaemia\nOnline\nOral\n\n\n2020\nNATA Annual Meeting\nAre You Really Fit and Healthy?\nOnline\nOral\n\n\n2020\nNATA Annual Meeting\nIs Fingerprick Testing Accurate for Iron Assessment?\nOnline\nOral\n\n\n2019\nTelethon Kids Institute\nAcute Hypoxia on Blood Glucose in T1D: Preliminary Findings\nPerth, Australia\nOral\n\n\n2019\nPerth Children’s Hospital\nAcute Hypoxia on Blood Glucose in T1D: Final Results\nPerth, Australia\nOral\n\n\n2018\nTelethon Kids Institute\nAcute Hypoxia on Blood Glucose in T1D: Rationale and Design\nPerth, Australia\nOral"
   },
   {
     "objectID": "research-output.html#invited-presentations",
     "href": "research-output.html#invited-presentations",
-    "title": "Research Output",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Invited Presentations",
     "text": "Invited Presentations\n\n\n\n\n\n\n\n\n\nYear\nTitle\nVenue\nAudience\n\n\n\n\n2024\nIron and the Human Body\nUWA School of Human Sciences (IMED1108)\nMedical students\n\n\n2024\nNavigating Iron Deficiency in Clinical Practice\nPennington Biomedical Research Centre\nResearch staff & fellows\n\n\n2023\nIron and the Human Body\nUWA School of Human Sciences (IMED1108)\nMedical students\n\n\n2023\nIron Deficiency in Exercising Females: What We Now Know\nPESA WA (Physical Education & Sport Association)\nPE educators\n\n\n2022\nIron in the Diet: From Food to Physiology\nUWA School of Human Sciences (IMED1108)\nMedical students\n\n\n2022\nIron Deficiency Beyond Anaemia\nUWA Postgraduate Research Symposium\nPostgraduate researchers\n\n\n2021\nNovel Research in T1D and High-Altitude Exercise\nUWA Diabetes Research Group\nClinicians & researchers"
   },
   {
     "objectID": "research-output.html#media-engagement",
     "href": "research-output.html#media-engagement",
-    "title": "Research Output",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Media Engagement",
     "text": "Media Engagement\n50+ media appearances covering research on iron deficiency, women’s health, exercise physiology, and the IRONWOMAN trial.\nNotable outlets include:\n\n  ABC Radio\n  Sydney Morning Herald\n  Brisbane Times\n  The Age\n  Medical News Today\n  MSN\n  Sports Injury Bulletin\n  Healio\n  EurekAlert\n  US Pharmacist\n  Medpage Today\n  UWA News\n  Medical Life Sciences News\n  Times of India"
   },
   {
     "objectID": "research-output.html#peer-review-activity",
     "href": "research-output.html#peer-review-activity",
-    "title": "Research Output",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Peer Review Activity",
     "text": "Peer Review Activity\nAcademic Editor: PLOS One\nGuest Editor: Women’s Health\nActive reviewer for 20+ journals across haematology, sports science, nutrition, internal medicine, and clinical research:\n\n  BMJ\n  JAMA\n  BJSM\n  Scientific Reports (Nature)\n  BJA (British Journal of Anaesthesia)\n  British Journal of Surgery\n  British Journal of Nutrition\n  JSAMS (Journal of Sports Sciences)\n  JCSM (J Cachexia Sarcopenia Muscle)\n  Vox Sanguinis\n  Internal Medicine Journal\n  JCEM (J Clinical Endocrinology & Metabolism)"
   },
   {
     "objectID": "research-output.html#research-funding",
     "href": "research-output.html#research-funding",
-    "title": "Research Output",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Research Funding",
     "text": "Research Funding\nTotal research funding: ~$862,000 AUD\n\n\n\n\n\n\n\n\n\n\nGrant / Award\nFunder\nYear\nValue (AUD)\nRole\n\n\n\n\nIRONWOMAN Pharmacosmos RCT\nPharmacosmos A/S\n2019–2025\n$555,460\nCo-investigator\n\n\nRTP PhD Studentship\nUniversity of Western Australia\n2020–2024\n$180,000\nRecipient\n\n\nNHMRC DARP Clinical Trial Grant\nNHMRC\n2023–2027\n$60,000\nChief Investigator\n\n\nPharmacosmos PhD Top-Up Scholarship\nPharmacosmos A/S\n2019–2024\n$30,000\nRecipient\n\n\nTelethon Kids Institute Seeding Grant\nTelethon Kids\n2019\n$17,000\nCo-investigator\n\n\nNHMRC CRE Honours Scholarship\nNHMRC\n2018\n$5,000\nRecipient\n\n\nFrank Pyke Memorial Scholarship\nUWA\n2018\n$5,000\nRecipient\n\n\nNATA Travel Grant\nNATA\n2023\n$5,000\nRecipient\n\n\nUWA Postgraduate Travel Award\nUniversity of Western Australia\n2022\n$2,500\nRecipient\n\n\nESSA Conference Bursary\nExercise & Sports Science Australia\n2019\n$1,000\nRecipient\n\n\nSMA Conference Bursary\nSports Medicine Australia\n2021\n$1,000\nRecipient"
   },
   {
     "objectID": "research-output.html#policy-citations",
     "href": "research-output.html#policy-citations",
-    "title": "Research Output",
+    "title": "Dr. Cory Dugan | Biostatistician",
     "section": "Policy Citations",
     "text": "Policy Citations\n\nWHO (2025) — Cited in World Health Organization guidance on iron supplementation for non-anaemic iron deficiency\nOSHA (2024) — Referenced in occupational health standards on iron biomarkers and worker health\nPublic Health Ontario (2023) — Included in provincial recommendations on iron deficiency screening in community health\n\n\nDr. C. W. Dugan  ·  March 2026  ·  Baton Rouge, LA"
   }
