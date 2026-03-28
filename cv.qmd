@@ -6,196 +6,190 @@ toc-depth: 2
 toc-location: left
 ---
 
+## Cory Dugan, PhD
+
 ```{=html}
-<div class="hero">
-  <div class="hero-inner">
-    <h1 class="hero-name">Curriculum Vitae</h1>
-    <p class="hero-tagline">
-      Dr. Cory William Dugan &nbsp;·&nbsp; PhD &nbsp;·&nbsp; AFHEA
-    </p>
+<div class="cv-header">
+  <div>
+    <div class="cv-subtitle"><strong>Postdoctoral Research Fellow</strong> · Pennington Biomedical Research Centre</div>
+    <div class="cv-subtitle">Iron regulation · Women's health · Clinical trials · Biostatistics</div>
+    <div class="cv-links">
+      <a href="https://www.linkedin.com/in/cory-dugan-phd/">LinkedIn</a> · <a href="mailto:cory.dugan1@gmail.com">Email</a>
+    </div>
   </div>
 </div>
 ```
-
-## Cory Dugan, PhD
-
-**Postdoctoral Research Fellow** | Pennington Biomedical Research Centre
-
-Investigating iron regulation and physiological function through novel approaches in nutrition and metabolism.
-
-[LinkedIn](https://www.linkedin.com/in/cory-dugan-phd/) | [Email](mailto:cory.dugan1@gmail.com)
 
 ---
 
 ## Education
 
-### Doctor of Philosophy — Nutrition & Exercise Physiology
-**The University of Western Australia** | 2020–2024
-
-*PhD Title:* "Iron and women's health: A multidimensional exploration of iron deficiency, management, and treatment in active females"
-
-**Skills:** Clinical Trial Management, Data Analysis, Meta-analysis, Project Management, R Programming
-
-### Bachelor of Science (First Class Honours) — Bioenergetics
-**The University of Western Australia** | 2018–2019
-
-Thesis explored effects of simulated high altitude on blood glucose during exercise in type 1 diabetes. Altmetric score of 395 (top 5%).
-
-### Bachelor of Science — Sport & Exercise Science
-**The University of Western Australia** | 2018–2019
-
-WAM: 88.25, GPA: 7.0
-
-Highlight: Frank Pyke Memorial Scholarship. Key coursework included Advanced Exercise Physiology, Research Methods, and Data Analysis.
-
-### Associate Fellowship (AFHEA) — Higher Education
-**Advance HE** | 2022
-
-Recognition for commitment to professional teaching and learning.
+```{=html}
+<div class="cv-card-grid">
+  <div class="cv-card">
+    <h4>Doctor of Philosophy</h4>
+    <p class="cv-org">University of Western Australia</p>
+    <p class="cv-date">2020–2024 · Nutrition & Exercise Physiology</p>
+    <p class="cv-detail">Iron and women's health: A multidimensional exploration of iron deficiency, management, and treatment in active females</p>
+  </div>
+  <div class="cv-card">
+    <h4>BSc (First Class Honours)</h4>
+    <p class="cv-org">University of Western Australia</p>
+    <p class="cv-date">2018–2019 · Bioenergetics</p>
+    <p class="cv-detail">Altitude & blood glucose in T1D. Altmetric 395 (top 5%)</p>
+  </div>
+  <div class="cv-card">
+    <h4>Bachelor of Science</h4>
+    <p class="cv-org">University of Western Australia</p>
+    <p class="cv-date">2018–2019 · Sport & Exercise Science</p>
+    <p class="cv-detail">WAM 88.25 · GPA 7.0 · Frank Pyke Scholarship</p>
+  </div>
+  <div class="cv-card">
+    <h4>AFHEA</h4>
+    <p class="cv-org">Advance HE</p>
+    <p class="cv-date">2022 · Higher Education</p>
+    <p class="cv-detail">Associate Fellowship — UK Professional Standards Framework</p>
+  </div>
+</div>
+```
 
 ---
 
 ## Professional Experience
 
-### Postdoctoral Research Fellow
-**Pennington Biomedical Research Centre** | 2025–Present | Full-time
-
-Focus on iron regulation and physiological function.
-
-### Founder
-**HolisticHer** | 2024–Present | Owner
-
-Women's health coaching and wellness business.
-
-### Director
-**P∆R∆DOX Health & Wellbeing** | 2024–Present | Owner
-
-### Adjunct Research Fellow
-**Curtin University** | 2024–Present
-
-Women's health research and grant writing.
-
-### Research Fellow
-**Monash University** | 2024 | Full-time
-
-Clinical research in exercise physiology and micronutrient metabolism.
-
-### Research Officer (Chief Investigator)
-**University of Western Australia** | 2023–Present
-
-Leading the DARP Trial with Prof. Paul Fournier.
-
-### Associate Lecturer
-**University of Western Australia** | 2022–2024
-
-Lecturing across exercise physiology, bioenergetics, women's health, and professional business communication.
-
-### Coordinating Physiologist & Lab Specialist
-**UWA Exercise & Performance Centre** | 2022–2024 | Part-time
-
-### Academic Tutor & Lab Demonstrator
-**University of Western Australia** | 2021–2024 | Part-time
-
-Across three UWA schools (Human Sciences, Medical, Business).
-
-### Head Strength and Conditioning Coach
-**DDFUA** | 2020–2023
-
-### Umpire
-**AFL** | 2017
-
-AFLW games during inaugural year.
-
-### Personal Trainer
-**QV1** | 2017–2022
-
-### Research Assistant
-**University of Western Australia** | 2016–2017
-
-Assisting Dr. Joanna Nicholas with body composition measurements.
-
-### Tournament Director
-**Australian Poker League** | 2015–2017
-
-### Umpire
-**WAFL** | 2015–2024
-
-### Croupier
-**Crown** | 2014–2015
+```{=html}
+<table class="cv-exp-table">
+  <thead>
+    <tr><th>Role</th><th>Organisation</th><th>Years</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Postdoctoral Research Fellow</strong></td><td>Pennington Biomedical Research Centre</td><td>2025–Present</td></tr>
+    <tr><td><strong>Founder</strong></td><td>HolisticHer</td><td>2024–Present</td></tr>
+    <tr><td><strong>Director</strong></td><td>P∆R∆DOX Health & Wellbeing</td><td>2024–Present</td></tr>
+    <tr><td><strong>Adjunct Research Fellow</strong></td><td>Curtin University</td><td>2024–Present</td></tr>
+    <tr><td><strong>Research Fellow</strong></td><td>Monash University</td><td>2024</td></tr>
+    <tr><td><strong>Research Officer (CI)</strong></td><td>University of Western Australia</td><td>2023–Present</td></tr>
+    <tr><td><strong>Associate Lecturer</strong></td><td>University of Western Australia</td><td>2022–2024</td></tr>
+    <tr><td><strong>Coordinating Physiologist</strong></td><td>UWA Exercise & Performance Centre</td><td>2022–2024</td></tr>
+    <tr><td><strong>Academic Tutor & Lab Demonstrator</strong></td><td>University of Western Australia</td><td>2021–2024</td></tr>
+    <tr><td><strong>Head S&C Coach</strong></td><td>DDFUA</td><td>2020–2023</td></tr>
+    <tr><td>Umpire</td><td>AFL (AFLW inaugural season)</td><td>2017</td></tr>
+    <tr><td>Personal Trainer</td><td>QV1</td><td>2017–2022</td></tr>
+    <tr><td>Research Assistant</td><td>University of Western Australia</td><td>2016–2017</td></tr>
+    <tr><td>Tournament Director</td><td>Australian Poker League</td><td>2015–2017</td></tr>
+    <tr><td>Umpire</td><td>WAFL</td><td>2015–2024</td></tr>
+    <tr><td>Croupier</td><td>Crown</td><td>2014–2015</td></tr>
+  </tbody>
+</table>
+```
 
 ---
 
 ## Teaching
 
-| Unit | School | Role | Years |
-|------|--------|------|-------|
-| Applied Professional Business Communications (BUSN5100) | UWA Business School | Tutor & Lecturer | 2023–2025 |
-| The Musculoskeletal System and Movement (SSEH1101) | UWA Human Sciences | Lab Demonstrator | 2021–2024 |
-| Exercise Physiology (SSEH2260) | UWA Human Sciences | Tutor & Lecturer | 2021–2024 |
-| Bioenergetics in Exercise, Nutrition and Energy Balance (SSEH3366) | UWA Human Sciences | Tutor & Lecturer | 2021–2024 |
-| Issues in Women's Health Research (IMED3301) | UWA IMED | Tutor & Lecturer | 2021–2024 |
-| Health and Fitness (SSEH1103) | UWA Human Sciences | Coordinator | 2021–2024 |
-| Sport Physiology (SSEH3365) | UWA Human Sciences | Tutor & Lecturer | 2021–2024 |
+```{=html}
+<table class="cv-exp-table">
+  <thead>
+    <tr><th>Unit</th><th>School</th><th>Role</th><th>Years</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Applied Professional Business Communications (BUSN5100)</td><td>UWA Business</td><td>Tutor & Lecturer</td><td>2023–2025</td></tr>
+    <tr><td>Musculoskeletal System & Movement (SSEH1101)</td><td>UWA Human Sciences</td><td>Lab Demonstrator</td><td>2021–2024</td></tr>
+    <tr><td>Exercise Physiology (SSEH2260)</td><td>UWA Human Sciences</td><td>Tutor & Lecturer</td><td>2021–2024</td></tr>
+    <tr><td>Bioenergetics (SSEH3366)</td><td>UWA Human Sciences</td><td>Tutor & Lecturer</td><td>2021–2024</td></tr>
+    <tr><td>Issues in Women's Health Research (IMED3301)</td><td>UWA IMED</td><td>Tutor & Lecturer</td><td>2021–2024</td></tr>
+    <tr><td>Health and Fitness (SSEH1103)</td><td>UWA Human Sciences</td><td>Coordinator</td><td>2021–2024</td></tr>
+    <tr><td>Sport Physiology (SSEH3365)</td><td>UWA Human Sciences</td><td>Tutor & Lecturer</td><td>2021–2024</td></tr>
+  </tbody>
+</table>
+```
 
 ---
 
 ## Supervision
 
-| Student | Project Title | Level | Role | Years |
-|---------|---------------|-------|------|-------|
-| Ms. Kanon Uchiyama | Rest Break Frequency and Performance in Mining Simulations | Masters | Secondary Supervisor | 2022–Present |
-| Mr. Samuel Kell | Exploring appetite suppression and oxidative stress after maximal sprint effort | Masters | Secondary Supervisor | 2023–Present |
-| Ms. Caitlin Atwell | Dietary Iron and the Elite Dancer | Honours | Secondary Supervisor | 2023–Present |
-| Mr. Arjan Ruba | Investigating hydration's impact on hypoglycaemia in type 1 diabetes during exercise | Masters | Secondary Supervisor | 2024–Present |
+```{=html}
+<div class="cv-card-grid">
+  <div class="cv-card">
+    <h4>Ms. Kanon Uchiyama</h4>
+    <p class="cv-date">Masters · 2022–Present · Secondary Supervisor</p>
+    <p class="cv-detail">Rest break frequency and performance in mining simulations</p>
+  </div>
+  <div class="cv-card">
+    <h4>Mr. Samuel Kell</h4>
+    <p class="cv-date">Masters · 2023–Present · Secondary Supervisor</p>
+    <p class="cv-detail">Appetite suppression and oxidative stress after maximal sprint effort</p>
+  </div>
+  <div class="cv-card">
+    <h4>Ms. Caitlin Atwell</h4>
+    <p class="cv-date">Honours · 2023–Present · Secondary Supervisor</p>
+    <p class="cv-detail">Dietary iron and the elite dancer</p>
+  </div>
+  <div class="cv-card">
+    <h4>Mr. Arjan Ruba</h4>
+    <p class="cv-date">Masters · 2024–Present · Secondary Supervisor</p>
+    <p class="cv-detail">Hydration's impact on hypoglycaemia in T1D during exercise</p>
+  </div>
+</div>
+```
 
 ---
 
 ## Honours & Awards
 
-| Award | Year | Type | Organisation | Amount |
-|-------|------|------|-------------|--------|
-| Wiley Top Downloaded Article (Transfusion) | 2025 | Prize | Wiley | |
-| BJSM PhD Academy Award | 2024 | Award | BJSM | |
-| NATA Travel Grant | 2023 | Grant | NATA | $5,000 |
-| NHMRC Investigator Grant: DARP | 2023 | Grant | | $60,000 |
-| Editors Choice: Transfusion Evidence Library | 2023 | Prize | Wiley | |
-| UWA Teaching Excellence (Early Career) | 2023 | Award | UWA | |
-| Aus.Iron Travel Grant | 2022 | Grant | | $2,000 |
-| Associate Fellowship AFHEA | 2022 | Award | Advance HE | |
-| NATA Best Poster - Oral Communications | 2021 | Prize | NATA | |
-| NATA Presentation Prize | 2021 | Prize | NATA | |
-| Wiley Top Downloaded Article (Anaesthesia) | 2021 | Prize | Wiley | |
-| Australian Government RTP Scholarship + Stipend | 2020 | Scholarship | | $190,500 |
-| Telethon Kids Institute Travel Grant | 2020 | Grant | | $3,000 |
-| Pharmacosmos PhD Top Up Scholarship | 2019 | Scholarship | | $30,000 |
-| Pharmacosmos RCT Grant | 2019 | Grant | | $555,460 |
-| Life Membership for Outstanding Service | 2019 | Prize | DDFUA | |
-| Telethon Kids Institute Seeding Grant | 2019 | Grant | | $17,000 |
-| Frank Pyke Memorial Scholarship | 2018 | Scholarship | UWA | $5,000 |
-| NHMRC CRE T1D Honours Scholarship | 2018 | Scholarship | | $5,000 |
-| UWA Ethics Committee Application of the Year | 2018 | Honour | UWA | $5,000 |
+```{=html}
+<table class="cv-exp-table">
+  <thead>
+    <tr><th>Award</th><th>Year</th><th>Type</th><th>Amount</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pharmacosmos RCT Grant</td><td>2019</td><td>Grant</td><td>$555,460</td></tr>
+    <tr><td>Australian Government RTP Scholarship + Stipend</td><td>2020</td><td>Scholarship</td><td>$190,500</td></tr>
+    <tr><td>NHMRC Investigator Grant: DARP</td><td>2023</td><td>Grant</td><td>$60,000</td></tr>
+    <tr><td>Pharmacosmos PhD Top Up Scholarship</td><td>2019</td><td>Scholarship</td><td>$30,000</td></tr>
+    <tr><td>Telethon Kids Institute Seeding Grant</td><td>2019</td><td>Grant</td><td>$17,000</td></tr>
+    <tr><td>BJSM PhD Academy Award</td><td>2024</td><td>Award</td><td></td></tr>
+    <tr><td>Wiley Top Downloaded Article (Transfusion)</td><td>2025</td><td>Prize</td><td></td></tr>
+    <tr><td>Wiley Top Downloaded Article (Anaesthesia)</td><td>2021</td><td>Prize</td><td></td></tr>
+    <tr><td>NATA Travel Grant</td><td>2023</td><td>Grant</td><td>$5,000</td></tr>
+    <tr><td>Editors Choice: Transfusion Evidence Library</td><td>2023</td><td>Prize</td><td></td></tr>
+    <tr><td>UWA Teaching Excellence (Early Career)</td><td>2023</td><td>Award</td><td></td></tr>
+    <tr><td>NATA Best Poster - Oral Communications</td><td>2021</td><td>Prize</td><td></td></tr>
+    <tr><td>NATA Presentation Prize</td><td>2021</td><td>Prize</td><td></td></tr>
+    <tr><td>Frank Pyke Memorial Scholarship</td><td>2018</td><td>Scholarship</td><td>$5,000</td></tr>
+    <tr><td>NHMRC CRE T1D Honours Scholarship</td><td>2018</td><td>Scholarship</td><td>$5,000</td></tr>
+    <tr><td>UWA Ethics Application of the Year</td><td>2018</td><td>Honour</td><td>$5,000</td></tr>
+    <tr><td>Aus.Iron Travel Grant</td><td>2022</td><td>Grant</td><td>$2,000</td></tr>
+    <tr><td>Telethon Kids Travel Grant</td><td>2020</td><td>Grant</td><td>$3,000</td></tr>
+    <tr><td>Associate Fellowship AFHEA</td><td>2022</td><td>Award</td><td></td></tr>
+    <tr><td>Life Membership — DDFUA</td><td>2019</td><td>Prize</td><td></td></tr>
+  </tbody>
+</table>
+```
 
 ---
 
 ## Certifications
 
-| Certification | Organisation | Year |
-|---------------|-------------|------|
-| Standard Mental Health First Aider | Mental Health First Aid International | 2024 |
-| R—Data Use in Science (High Distinction, SCIE4401) | UWA | 2022 |
-| Statistics in R | Australian and NZ Society for Immunology | 2021 |
-| Introduction to R & Statistics in R | UWA | 2021 |
-| Meta-analysis Statistics | Salis Institute | 2020 |
-| Systematic review and meta-analysis | Cochrane | 2020 |
-| Systematically Review the Literature | Salis Institute | 2020 |
-| Good Clinical Practice (GCP) | WAHTN | 2019 |
-| Clinical Research- Conducting Pragmatic RCTs | Western University | 2019 |
-| Standard First Aid CPR and AED | Sports Medicine Australia | 2017 |
-| Certificate IV Fitness | North Metropolitan TAFE | 2017 |
-| Certificate III Fitness | North Metropolitan TAFE | 2017 |
-| Casino Gaming Workers/Card Dealer License | Australian Poker League | 2015 |
-| Responsible service of alcohol | Crown Resorts | 2014 |
-| Responsible service of gambling | Crown Resorts | 2014 |
+```{=html}
+<div class="cv-chip-row">
+  <span class="cv-chip">Mental Health First Aider (2024)</span>
+  <span class="cv-chip">R—Data Use in Science, HD (2022)</span>
+  <span class="cv-chip">Statistics in R (2021)</span>
+  <span class="cv-chip">Intro to R & Statistics (2021)</span>
+  <span class="cv-chip">Meta-analysis Statistics (2020)</span>
+  <span class="cv-chip">Cochrane Systematic Review (2020)</span>
+  <span class="cv-chip">Systematic Literature Review (2020)</span>
+  <span class="cv-chip">Good Clinical Practice (2019)</span>
+  <span class="cv-chip">Pragmatic RCTs (2019)</span>
+  <span class="cv-chip">First Aid CPR & AED (2017)</span>
+  <span class="cv-chip">Certificate IV Fitness (2017)</span>
+  <span class="cv-chip">Certificate III Fitness (2017)</span>
+  <span class="cv-chip">Casino Gaming License (2015)</span>
+  <span class="cv-chip">RSA (2014)</span>
+  <span class="cv-chip">RSG (2014)</span>
+</div>
+```
 
 ---
 
@@ -253,96 +247,176 @@ Assisting Dr. Joanna Nicholas with body composition measurements.
 
 ---
 
-## Conference Proceedings
-
-Presentations across conferences including NATA, Aus.Iron, ACSM, ANZSBT, Sports Dietitians Australia, and Pennington Biomedical Research Center Symposium (2018–2025).
-
----
-
 ## Research Funding
 
-| Grant | Year | Funder | Amount (AUD) |
-|-------|------|--------|-------------|
-| Pharmacosmos RCT Grant | 2019 | Pharmacosmos | $550,000 |
-| RTP PhD Studentship | 2019 | UWA | $180,000 |
-| NHMRC Investigator Grant DARP | 2023 | NHMRC | $60,000 |
-| Pharmacosmos PhD Top Up | 2019 | Pharmacosmos | $30,000 |
-| Telethon Kids Seeding Grant | 2019 | Telethon Kids | $17,000 |
-| NATA Travel Grant | 2023 | NATA | $5,000 |
-| Frank Pyke Scholarship | 2018 | UWA | $5,000 |
-| NHMRC CRE T1D Honours Scholarship | 2018 | NHMRC | $5,000 |
-| UWA Ethics Application of Year | 2018 | UWA | $5,000 |
-| Telethon Kids Travel Grant | 2019 | Telethon Kids | $3,000 |
-| Aus.Iron Travel Grant | 2022 | Aus.Iron | $2,000 |
+**Total: ~$862,000 AUD**
+
+```{=html}
+<table class="cv-exp-table">
+  <thead>
+    <tr><th>Grant</th><th>Funder</th><th>Year</th><th>Amount (AUD)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Pharmacosmos RCT Grant</strong></td><td>Pharmacosmos</td><td>2019</td><td>$550,000</td></tr>
+    <tr><td><strong>RTP PhD Studentship</strong></td><td>UWA</td><td>2019</td><td>$180,000</td></tr>
+    <tr><td><strong>NHMRC Investigator Grant DARP</strong></td><td>NHMRC</td><td>2023</td><td>$60,000</td></tr>
+    <tr><td>Pharmacosmos PhD Top Up</td><td>Pharmacosmos</td><td>2019</td><td>$30,000</td></tr>
+    <tr><td>Telethon Kids Seeding Grant</td><td>Telethon Kids</td><td>2019</td><td>$17,000</td></tr>
+    <tr><td>NATA Travel Grant</td><td>NATA</td><td>2023</td><td>$5,000</td></tr>
+    <tr><td>Frank Pyke Scholarship</td><td>UWA</td><td>2018</td><td>$5,000</td></tr>
+    <tr><td>NHMRC CRE T1D Honours</td><td>NHMRC</td><td>2018</td><td>$5,000</td></tr>
+    <tr><td>UWA Ethics Application of Year</td><td>UWA</td><td>2018</td><td>$5,000</td></tr>
+    <tr><td>Telethon Kids Travel Grant</td><td>Telethon Kids</td><td>2019</td><td>$3,000</td></tr>
+    <tr><td>Aus.Iron Travel Grant</td><td>Aus.Iron</td><td>2022</td><td>$2,000</td></tr>
+  </tbody>
+</table>
+```
 
 ---
 
 ## Invited Presentations
 
-1. Iron and women's health, 2024, Multiple venues
-2. Women's health student research symposium, 2024, UWA
-3. Issues in women's health guest lecture, 2024, UWA
-4. Free iron deficiency screening, 2023, 10,000+ females
-5. Novel research in type 1 diabetes, 2021, Type 1 Diabetes Family Centre
-6. Guest lectures across exercise physiology and bioenergetics, 2021–2024, UWA
+```{=html}
+<table class="cv-exp-table">
+  <thead>
+    <tr><th>Title</th><th>Venue</th><th>Year</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Iron and women's health</td><td>Multiple venues</td><td>2024</td></tr>
+    <tr><td>Women's health student research symposium</td><td>UWA</td><td>2024</td></tr>
+    <tr><td>Issues in women's health guest lecture</td><td>UWA</td><td>2024</td></tr>
+    <tr><td>Free iron deficiency screening — 10,000+ females</td><td>Community</td><td>2023</td></tr>
+    <tr><td>Novel research in type 1 diabetes</td><td>T1D Family Centre</td><td>2021</td></tr>
+    <tr><td>Guest lectures: exercise physiology & bioenergetics</td><td>UWA</td><td>2021–2024</td></tr>
+  </tbody>
+</table>
+```
 
 ---
 
 ## Peer Review
 
-**Editorial Roles:** Academic Editor (PLOS One), Guest Editor (Women's Health)
-
-**Paid Reviewer:** Journal of Medical Economics (2025), BMC Public Health (2025)
-
-**Journals Reviewed For:** PLOS One, Women's Health, Journal of Medical Economics, BMC Public Health, and numerous other peer-reviewed journals.
+```{=html}
+<div class="cv-two-col">
+  <div>
+    <strong>Editorial Roles</strong><br>
+    Academic Editor — PLOS One<br>
+    Guest Editor — Women's Health
+  </div>
+  <div>
+    <strong>Paid Reviewer</strong><br>
+    Journal of Medical Economics (2025)<br>
+    BMC Public Health (2025)
+  </div>
+</div>
+<div class="cv-chip-row" style="margin-top:0.8rem;">
+  <span class="cv-chip">BMJ</span>
+  <span class="cv-chip">JAMA</span>
+  <span class="cv-chip">BJSM</span>
+  <span class="cv-chip">Scientific Reports</span>
+  <span class="cv-chip">BJA</span>
+  <span class="cv-chip">British J Surgery</span>
+  <span class="cv-chip">British J Nutrition</span>
+  <span class="cv-chip">JSAMS</span>
+  <span class="cv-chip">JCSM</span>
+  <span class="cv-chip">Vox Sanguinis</span>
+  <span class="cv-chip">Internal Medicine J</span>
+  <span class="cv-chip">JCEM</span>
+  <span class="cv-chip">PLOS One</span>
+  <span class="cv-chip">Women's Health</span>
+</div>
+```
 
 ---
 
 ## Media Engagement
 
-50+ media appearances across outlets including: ABC Radio, Sydney Morning Herald, Brisbane Times, Medical News Today, MSN, Healio, EurekAlert, US Pharmacist, Medpage Today, Sports Injury Bulletin, UWA News, Medical Life Sciences News, and Times of India.
+50+ media appearances across outlets including:
+
+```{=html}
+<div class="cv-chip-row">
+  <span class="cv-chip">ABC Radio</span>
+  <span class="cv-chip">Sydney Morning Herald</span>
+  <span class="cv-chip">Brisbane Times</span>
+  <span class="cv-chip">The Age</span>
+  <span class="cv-chip">Medical News Today</span>
+  <span class="cv-chip">MSN</span>
+  <span class="cv-chip">Healio</span>
+  <span class="cv-chip">EurekAlert</span>
+  <span class="cv-chip">US Pharmacist</span>
+  <span class="cv-chip">Medpage Today</span>
+  <span class="cv-chip">Sports Injury Bulletin</span>
+  <span class="cv-chip">UWA News</span>
+  <span class="cv-chip">Medical Life Sciences News</span>
+  <span class="cv-chip">Times of India</span>
+</div>
+```
 
 ---
 
 ## Policy Citations
 
-1. **WHO (2025):** Guidance on implementing patient blood management. Cited the JCSM 2022 meta-analysis.
-
-2. **OSHA (2024):** Heat Injury and Illness Prevention. Cited the EJAP 2022 mining study.
-
-3. **Public Health Ontario (2023):** Interventions to Mitigate Heat-related Harms. Cited the EJAP 2022 study.
+```{=html}
+<div class="cv-card-grid">
+  <div class="cv-card">
+    <h4>WHO (2025)</h4>
+    <p class="cv-detail">Guidance on implementing patient blood management. Cited the JCSM 2022 meta-analysis.</p>
+  </div>
+  <div class="cv-card">
+    <h4>OSHA (2024)</h4>
+    <p class="cv-detail">Heat Injury and Illness Prevention. Cited the EJAP 2022 mining study.</p>
+  </div>
+  <div class="cv-card">
+    <h4>Public Health Ontario (2023)</h4>
+    <p class="cv-detail">Interventions to Mitigate Heat-related Harms. Cited the EJAP 2022 study.</p>
+  </div>
+</div>
+```
 
 ---
 
 ## Service & Engagement
 
-### Industry / Government Collaborations
-- Iron optimisation in pregnancy HOW Collaborative (2025)
-- PowerfulHer Podcast (2025)
-
-### Community Engagement
-- Issues in women's health guest lecture (2024)
-- Free iron deficiency screening (2023) — 10,000+ females
-- Free anaemia screening (2021)
-- Every Woman Triathlon screening (2021)
-
-### Professional Networks
-- WANFLUA member (2015–Present)
-- DDFUA member (2009–Present, Life Member 2019)
-
-### Online Communities
-- Facebook group admin: Iron Deficiency Anaemia Women's Group (34,000+ members)
-- Facebook group admin: Anaemia Education (5,000+ members)
-
-### Mentoring & Leadership
-- STRIVE mentor (2021)
-
-### Consultation
-- The misogyny of iron deficiency consultancy (2020)
+```{=html}
+<div class="cv-two-col">
+  <div>
+    <strong>Industry & Government</strong><br>
+    <span style="font-size:0.85rem; color: rgba(255,255,255,0.7);">
+      Iron optimisation in pregnancy HOW Collaborative (2025)<br>
+      PowerfulHer Podcast (2025)<br>
+      The misogyny of iron deficiency consultancy (2020)
+    </span>
+  </div>
+  <div>
+    <strong>Community Engagement</strong><br>
+    <span style="font-size:0.85rem; color: rgba(255,255,255,0.7);">
+      Free iron deficiency screening — 10,000+ females (2023)<br>
+      Free anaemia screening (2021)<br>
+      Every Woman Triathlon screening (2021)
+    </span>
+  </div>
+</div>
+<div class="cv-two-col" style="margin-top:1rem;">
+  <div>
+    <strong>Professional Networks & Online</strong><br>
+    <span style="font-size:0.85rem; color: rgba(255,255,255,0.7);">
+      WANFLUA member (2015–Present)<br>
+      DDFUA Life Member (2009–Present)<br>
+      STRIVE mentor (2021)
+    </span>
+  </div>
+  <div>
+    <strong>Online Communities</strong><br>
+    <span style="font-size:0.85rem; color: rgba(255,255,255,0.7);">
+      Iron Deficiency Anaemia Women's Group — 34,000+ members<br>
+      Anaemia Education — 5,000+ members
+    </span>
+  </div>
+</div>
+```
 
 ---
 
 ## References
 
 Available upon request
-

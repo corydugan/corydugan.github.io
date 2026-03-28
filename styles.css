@@ -308,20 +308,159 @@ a:hover {
 
 /* CV Table of Contents sidebar */
 .sidebar nav[role="doc-toc"] {
-  border-left: 2px solid var(--border-subtle);
-  padding-left: 1rem;
+  border-right: 2px solid var(--border-subtle);
+  padding-right: 1rem;
+  padding-left: 0;
+  min-width: 200px;
 }
 
 .sidebar nav[role="doc-toc"] a {
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   color: var(--text-muted);
-  padding: 0.2rem 0;
+  padding: 0.15rem 0;
   transition: color 0.2s ease;
+  white-space: nowrap;
 }
 
 .sidebar nav[role="doc-toc"] a:hover,
 .sidebar nav[role="doc-toc"] a.active {
   color: var(--accent-teal-light);
+}
+
+/* ── CV Compact Card Grid ── */
+.cv-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.cv-card {
+  background: var(--surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--accent-teal);
+  border-radius: var(--radius-sm);
+  padding: 0.8rem 1rem;
+  transition: all 0.2s ease;
+}
+
+.cv-card:hover {
+  background: var(--surface-hover);
+  border-left-color: var(--accent-gold);
+}
+
+.cv-card h4 {
+  font-size: 0.9rem;
+  margin: 0 0 0.25rem 0;
+  color: var(--accent-teal-light);
+}
+
+.cv-card .cv-org {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.9);
+  margin: 0;
+}
+
+.cv-card .cv-date {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin: 0.15rem 0 0.3rem;
+}
+
+.cv-card .cv-detail {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.7);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* ── CV Compact Experience Table ── */
+.cv-exp-table {
+  width: 100%;
+  font-size: 0.82rem;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.cv-exp-table th {
+  text-align: left;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.cv-exp-table td {
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  vertical-align: top;
+}
+
+.cv-exp-table tr:hover td {
+  background: var(--surface-raised);
+}
+
+/* ── CV Inline Chip Lists ── */
+.cv-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.8rem 0;
+}
+
+.cv-chip {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.6rem;
+  background: var(--surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  color: rgba(255,255,255,0.75);
+  white-space: nowrap;
+}
+
+/* ── CV Header Block ── */
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+}
+
+.cv-header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.cv-header .cv-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0.2rem 0 0;
+}
+
+.cv-header .cv-links {
+  font-size: 0.82rem;
+  margin-top: 0.3rem;
+}
+
+/* ── Two-Column Sections ── */
+.cv-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .cv-card-grid {
+    grid-template-columns: 1fr;
+  }
+  .cv-two-col {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ── Research Output Cards ── */
@@ -360,7 +499,7 @@ ul li::marker {
 
 /* ── Content width constraint ── */
 .quarto-container {
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 /* ── Responsive ── */
