@@ -5,7 +5,7 @@ author: "Cory Dugan, PhD"
 date: today
 toc: true
 toc-depth: 4
-toc-location: right
+toc-location: left
 code-fold: show
 code-tools: true
 code-line-numbers: true
