@@ -22,98 +22,64 @@ toc-depth: 2
 
 | Year | Conference | Title | Location | Type |
 |------|-----------|-------|----------|------|
-| 2025 | Sports Medicine Australia | Iron deficiency screening in community sport | Online | Oral |
-| 2024 | NATA Annual Meeting | IRONWOMAN trial: IV iron in exercising females | New Orleans, USA | Oral |
-| 2024 | Sports Dietitians Australia | Iron supplementation in active females | Online | Invited Oral |
-| 2023 | AIS Research Symposium | Biomarker modelling for iron depletion | Canberra, Australia | Oral |
-| 2023 | Iron Disorders Institute | IV iron in non-anaemic deficiency | Online | Oral |
-| 2022 | Sports Medicine Australia | IV iron vs oral iron in exercising females | Adelaide, Australia | Oral |
-| 2022 | ACSM Annual Meeting | Menstrual blood loss and iron status | San Diego, USA | Oral |
-| 2022 | UWA Research Showcase | Screening 3000 females for iron deficiency | Perth, Australia | Poster |
-| 2021 | ISTRC (Int. Society for Twin Research Congress) | The misogyny of iron deficiency | Online | Oral |
-| 2021 | Sports Medicine Australia | Altitude training and blood glucose in T1D | Online | Oral |
-| 2021 | Exercise & Sports Science Australia | sTfR/ferritin modelling in exercising females | Online | Oral |
-| 2020 | UWA Postgraduate Symposium | Iron deficiency in exercising females | Perth, Australia | Oral |
-| 2020 | Sports Medicine Australia | Iron deficiency and athletic performance | Online | Poster |
-| 2019 | Sports Medicine Australia | IRONWOMAN trial: study protocol | Canberra, Australia | Oral |
-| 2019 | UWA Research Showcase | Iron biomarker screening in females | Perth, Australia | Poster |
-| 2019 | Exercise & Sports Science Australia | Iron supplementation meta-analysis | Brisbane, Australia | Poster |
-| 2018 | Exercise & Sports Science Australia | Altitude and T1D glucose management | Brisbane, Australia | Oral |
-| 2018 | Sports Medicine Australia | Type 1 diabetes and high-altitude sport | Melbourne, Australia | Poster |
-| 2018 | UWA Honours Symposium | Glucose regulation at altitude in T1D | Perth, Australia | Oral |
+| 2025 | Pennington Symposium | Residence at moderate altitude and metabolic markers | Baton Rouge, LA | Oral |
+| 2024 | NATA Annual Meeting | Intravenous Iron Lower Rates of Anaemia in Active Females | Bologna, Italy | Oral |
+| 2024 | AusIron 2024 | Iron and Female Athletes | Online | Oral |
+| 2024 | NATA | What is Normal Iron Metabolism? | Online | Oral |
+| 2024 | NATA | TikTok and Iron Deficiency Awareness | Online | Poster |
+| 2024 | NATA | IRONWOMAN Trial Results | Online | Oral |
+| 2023 | NATA Annual Meeting | Screening and Assessing Iron Status in Active Women | Online | Oral |
+| 2022 | NATA Annual Meeting | Systematic Review and Meta-analysis of IV Iron for Non-Anaemic Iron Deficiency | Online | Oral |
+| 2021 | SMA Conference | Acute Hypoxia and Blood Glucose in Type 1 Diabetes | Online | Oral |
+| 2021 | NATA Annual Meeting | Need to Screen for Anaemia in Female Populations | Online | Oral |
+| 2021 | ISTRC (Int. Society for Twin Research Congress) | The Misogyny of Iron Deficiency | Online | Oral |
+| 2021 | ESSA Conference | Misogyny of Iron Deficiency | Online | Oral |
+| 2021 | ESSA Conference | Acute Hypoxia and Type 1 Diabetes | Online | Oral |
+| 2021 | SMA Conference | Need to Screen for Anaemia | Online | Oral |
+| 2020 | NATA Annual Meeting | Are You Really Fit and Healthy? | Online | Oral |
+| 2020 | NATA Annual Meeting | Is Fingerprick Testing Accurate for Iron Assessment? | Online | Oral |
+| 2019 | Telethon Kids Institute | Acute Hypoxia on Blood Glucose in T1D: Preliminary Findings | Perth, Australia | Oral |
+| 2019 | Perth Children's Hospital | Acute Hypoxia on Blood Glucose in T1D: Final Results | Perth, Australia | Oral |
+| 2018 | Telethon Kids Institute | Acute Hypoxia on Blood Glucose in T1D: Rationale and Design | Perth, Australia | Oral |
 
 ---
 
 ## Invited Presentations
 
-| Year | Title | Venue / Event | Audience |
-|------|-------|--------------|----------|
-| 2024 | Iron and the Human Body | UWA School of Human Sciences — IMED1108 | Medical students |
-| 2024 | Navigating iron deficiency in clinical practice | Pennington Biomedical Research Centre | Research staff & fellows |
-| 2023 | Iron and the Human Body | UWA School of Human Sciences — IMED1108 | Medical students |
-| 2023 | Iron deficiency in exercising females: what we now know | PESA WA (Physical Education & Sport Association) | PE educators |
-| 2022 | Iron in the diet: from food to physiology | UWA School of Human Sciences — IMED1108 | Medical students |
-| 2022 | Iron deficiency beyond anaemia | UWA Postgraduate Research Symposium | Postgraduate researchers |
-| 2021 | Novel research in T1D and high-altitude exercise | UWA Diabetes Research Group | Clinicians & researchers |
+| Year | Title | Venue | Audience |
+|------|-------|-------|----------|
+| 2024 | Iron and the Human Body | UWA School of Human Sciences (IMED1108) | Medical students |
+| 2024 | Navigating Iron Deficiency in Clinical Practice | Pennington Biomedical Research Centre | Research staff & fellows |
+| 2023 | Iron and the Human Body | UWA School of Human Sciences (IMED1108) | Medical students |
+| 2023 | Iron Deficiency in Exercising Females: What We Now Know | PESA WA (Physical Education & Sport Association) | PE educators |
+| 2022 | Iron in the Diet: From Food to Physiology | UWA School of Human Sciences (IMED1108) | Medical students |
+| 2022 | Iron Deficiency Beyond Anaemia | UWA Postgraduate Research Symposium | Postgraduate researchers |
+| 2021 | Novel Research in T1D and High-Altitude Exercise | UWA Diabetes Research Group | Clinicians & researchers |
 
 ---
 
 ## Media Engagement
 
+**50+ media appearances** covering research on iron deficiency, women's health, exercise physiology, and the IRONWOMAN trial.
+
+Notable outlets include:
+
 ```{=html}
-<div class="project-card">
-  <h3>🎙 ABC Radio National</h3>
-  <p>Interview on iron deficiency in women and the IRONWOMAN trial — discussing why female athletes are disproportionately affected and what the evidence says about treatment. <em>2024</em></p>
-  <div class="project-tags">
-    <span class="project-tag">Radio</span>
-    <span class="project-tag">Iron Deficiency</span>
-    <span class="project-tag">IRONWOMAN</span>
-  </div>
-</div>
-
-<div class="project-card">
-  <h3>🗞 Medpage Today</h3>
-  <p>Featured coverage of the IRONWOMAN RCT findings — IV iron supplementation in exercising females. Article highlighted clinical implications for sports medicine practitioners. <em>2025</em></p>
-  <div class="project-tags">
-    <span class="project-tag">Online Media</span>
-    <span class="project-tag">Clinical Trials</span>
-  </div>
-</div>
-
-<div class="project-card">
-  <h3>🗞 Healio (Hematology/Oncology)</h3>
-  <p>Coverage of iron deficiency research findings and the gap in diagnosis for non-anaemic iron deficiency in active populations. <em>2024</em></p>
-  <div class="project-tags">
-    <span class="project-tag">Online Media</span>
-    <span class="project-tag">Haematology</span>
-  </div>
-</div>
-
-<div class="project-card">
-  <h3>📰 UWA News</h3>
-  <p>University press feature on the IRONWOMAN trial — one of the largest RCTs examining iron supplementation in exercising females. Multiple features across 2022–2025. <em>2022–2025</em></p>
-  <div class="project-tags">
-    <span class="project-tag">University Press</span>
-    <span class="project-tag">Research Feature</span>
-  </div>
-</div>
-
-<div class="project-card">
-  <h3>📰 Medical Life Sciences News</h3>
-  <p>Feature article on the Cochrane systematic review of IV iron in non-anaemic iron deficiency — summarising findings for a clinical audience. <em>2023</em></p>
-  <div class="project-tags">
-    <span class="project-tag">Online Media</span>
-    <span class="project-tag">Systematic Review</span>
-  </div>
-</div>
-
-<div class="project-card">
-  <h3>📰 Sports Injury Bulletin</h3>
-  <p>Article discussing iron supplementation strategies and monitoring protocols for athletic populations — translating trial findings into practitioner guidance. <em>2023</em></p>
-  <div class="project-tags">
-    <span class="project-tag">Trade Publication</span>
-    <span class="project-tag">Sports Medicine</span>
-  </div>
+<div class="media-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">ABC Radio</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">Sydney Morning Herald</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">Brisbane Times</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">The Age</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">Medical News Today</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">MSN</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">Sports Injury Bulletin</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">Healio</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">EurekAlert</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">US Pharmacist</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">Medpage Today</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">UWA News</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">Medical Life Sciences News</div>
+  <div style="text-align: center; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px;">Times of India</div>
 </div>
 ```
 
@@ -121,32 +87,26 @@ toc-depth: 2
 
 ## Peer Review Activity
 
-**Active reviewer for 22+ journals** across haematology, sports science, nutrition, and clinical medicine.
+**Academic Editor:** PLOS One
+
+**Guest Editor:** Women's Health
+
+**Active reviewer for 20+ journals** across haematology, sports science, nutrition, internal medicine, and clinical research:
 
 ```{=html}
 <div class="toolkit-row">
   <span class="toolkit-chip">BMJ</span>
+  <span class="toolkit-chip">JAMA</span>
   <span class="toolkit-chip">BJSM</span>
-  <span class="toolkit-chip">Nature Scientific Reports</span>
-  <span class="toolkit-chip">American Journal of Haematology</span>
-  <span class="toolkit-chip">J Cachexia Sarcopenia Muscle</span>
-  <span class="toolkit-chip">Medicine & Science in Sports & Exercise</span>
-  <span class="toolkit-chip">Anaesthesia</span>
-  <span class="toolkit-chip">PLOS One (Academic Editor)</span>
-  <span class="toolkit-chip">Women's Health (Guest Editor)</span>
-  <span class="toolkit-chip">European Journal of Sport Science</span>
-  <span class="toolkit-chip">International Journal of Sport Nutrition</span>
-  <span class="toolkit-chip">Journal of Sports Sciences</span>
-  <span class="toolkit-chip">Nutrients</span>
-  <span class="toolkit-chip">Frontiers in Physiology</span>
-  <span class="toolkit-chip">Journal of the International Society of Sports Nutrition</span>
-  <span class="toolkit-chip">Applied Physiology Nutrition and Metabolism</span>
+  <span class="toolkit-chip">Scientific Reports (Nature)</span>
+  <span class="toolkit-chip">BJA (British Journal of Anaesthesia)</span>
+  <span class="toolkit-chip">British Journal of Surgery</span>
+  <span class="toolkit-chip">British Journal of Nutrition</span>
+  <span class="toolkit-chip">JSAMS (Journal of Sports Sciences)</span>
+  <span class="toolkit-chip">JCSM (J Cachexia Sarcopenia Muscle)</span>
   <span class="toolkit-chip">Vox Sanguinis</span>
-  <span class="toolkit-chip">Transfusion</span>
-  <span class="toolkit-chip">Blood Transfusion</span>
-  <span class="toolkit-chip">Journal of Sports Medicine and Physical Fitness</span>
-  <span class="toolkit-chip">International Journal of Environmental Research and Public Health</span>
-  <span class="toolkit-chip">PLOS ONE</span>
+  <span class="toolkit-chip">Internal Medicine Journal</span>
+  <span class="toolkit-chip">JCEM (J Clinical Endocrinology & Metabolism)</span>
 </div>
 ```
 
@@ -154,21 +114,29 @@ toc-depth: 2
 
 ## Research Funding
 
-**Total research funding: >$1M AUD**
+**Total research funding: ~$862,000 AUD**
 
 | Grant / Award | Funder | Year | Value (AUD) | Role |
 |--------------|--------|------|-------------|------|
-| IRONWOMAN Pharmacosmos RCT | Pharmacosmos A/S | 2019 | $555,460 | Co-investigator |
-| RTP PhD Studentship | University of Western Australia | 2020 | $190,500 | Recipient |
-| NHMRC DARP Clinical Trial | NHMRC | 2023 | $60,000 | CI |
+| IRONWOMAN Pharmacosmos RCT | Pharmacosmos A/S | 2019–2025 | $555,460 | Co-investigator |
+| RTP PhD Studentship | University of Western Australia | 2020–2024 | $180,000 | Recipient |
+| NHMRC DARP Clinical Trial Grant | NHMRC | 2023–2027 | $60,000 | Chief Investigator |
+| Pharmacosmos PhD Top-Up Scholarship | Pharmacosmos A/S | 2019–2024 | $30,000 | Recipient |
 | Telethon Kids Institute Seeding Grant | Telethon Kids | 2019 | $17,000 | Co-investigator |
-| Pharmacosmos PhD Top-Up Scholarship | Pharmacosmos A/S | 2019 | $30,000 | Recipient |
 | NHMRC CRE Honours Scholarship | NHMRC | 2018 | $5,000 | Recipient |
 | Frank Pyke Memorial Scholarship | UWA | 2018 | $5,000 | Recipient |
 | NATA Travel Grant | NATA | 2023 | $5,000 | Recipient |
 | UWA Postgraduate Travel Award | University of Western Australia | 2022 | $2,500 | Recipient |
 | ESSA Conference Bursary | Exercise & Sports Science Australia | 2019 | $1,000 | Recipient |
 | SMA Conference Bursary | Sports Medicine Australia | 2021 | $1,000 | Recipient |
+
+---
+
+## Policy Citations
+
+- **WHO (2025)** — Cited in World Health Organization guidance on iron supplementation for non-anaemic iron deficiency
+- **OSHA (2024)** — Referenced in occupational health standards on iron biomarkers and worker health
+- **Public Health Ontario (2023)** — Included in provincial recommendations on iron deficiency screening in community health
 
 ---
 

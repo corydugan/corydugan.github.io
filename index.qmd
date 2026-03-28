@@ -9,15 +9,15 @@ page-layout: full
     <h1 class="hero-name">Dr. Cory William Dugan</h1>
     <p class="hero-credentials">PhD &nbsp;·&nbsp; AFHEA</p>
     <p class="hero-tagline">
-      Academic researcher &amp; biostatistician specialising in iron deficiency,<br>
-      women's health, and machine learning for clinical applications.
+      Nutrition researcher &amp; biostatistician specialising in iron deficiency,<br>
+      women's health, and clinical trial design.
     </p>
     <div class="role-chips">
+      <span class="role-chip">Postdoctoral Research Fellow · Pennington Biomedical</span>
       <span class="role-chip">Research Officer · UWA</span>
-      <span class="role-chip">MD Scholarly Activity Supervisor · UWA</span>
-      <span class="role-chip">Co-founder · HolisticHer</span>
-      <span class="role-chip">Adjunct Postdoctoral Fellow · Curtin University</span>
-      <span class="role-chip">Adjunct Postdoctoral Fellow · Louisiana State University</span>
+      <span class="role-chip">Adjunct Research Fellow · Curtin University</span>
+      <span class="role-chip">Founder · HolisticHer</span>
+      <span class="role-chip">Director · P∆R∆DOX Health & Wellbeing</span>
     </div>
   </div>
 </div>
@@ -29,18 +29,19 @@ page-layout: full
 
 My PhD and subsequent research have centred on iron deficiency in exercising females — a field defined by chronic underdiagnosis, male-calibrated reference ranges, and a near-total absence of large-scale intervention data.
 
-I have screened over **3,000 females** for health indicators and markers of iron deficiency and anaemia, led the **IRONWOMAN double-blind randomised controlled trial**, and contributed to the Australian and New Zealand consensus position statement on iron in pregnancy. To date I have published **over 20 peer-reviewed articles** on women's health and related topics.
+I have screened over **10,000 females** for health indicators and markers of iron deficiency and anaemia, led the **IRONWOMAN double-blind randomised controlled trial**, and contributed to the Australian and New Zealand consensus position statement on iron in pregnancy. I have published **26 peer-reviewed articles** on women's health, haematology, clinical trials, and related topics.
 
-I am actively transitioning toward machine learning for health applications, combining formal R training (High Distinction, UWA), developing Python and PyTorch skills through the **AIM-AHEAD program**, and am currently enrolled in **Stanford's AI in Healthcare specialisation**.
+Currently, I am a Postdoctoral Research Fellow at the Pennington Biomedical Research Centre, focusing on iron regulation, nutrition, and metabolism. My research integrates rigorous biostatistics with translational outcomes — bridging clinical discovery and evidence-based practice.
 
 ---
 
 ## Research Focus
 
-- **Iron deficiency & women's health** — biomarker modelling, sTfR/ferritin pipelines, reference-range critique
-- **Clinical trials** — design, randomisation, IRONWOMAN RCT, longitudinal physiological data
-- **ANZ consensus work** — iron supplementation in pregnancy position statement
-- **Machine learning for health** — predictive modelling, feature selection, AI-assisted diagnostics
+- **Iron deficiency & women's health** — diagnosis, management, and intervention in active populations
+- **Clinical trials** — design, randomisation, longitudinal analysis, IRONWOMAN RCT
+- **Systematic reviews & meta-analysis** — evidence synthesis on iron supplementation
+- **Population screening** — community-based iron deficiency detection and characterisation
+- **Nutrition & exercise physiology** — type 1 diabetes, military nutrition, altitude effects
 
 ---
 
@@ -48,15 +49,14 @@ I am actively transitioning toward machine learning for health applications, com
 
 ```{=html}
 <div class="toolkit-row">
-  <span class="toolkit-chip">Linear Mixed-Effects Models</span>
-  <span class="toolkit-chip">Time-Series Analysis</span>
   <span class="toolkit-chip">Meta-Analysis</span>
-  <span class="toolkit-chip">Survival Modelling</span>
-  <span class="toolkit-chip">ROC Analysis</span>
-  <span class="toolkit-chip">LASSO / Regularisation</span>
-  <span class="toolkit-chip">R (tidyverse · ggplot2 · lme4)</span>
-  <span class="toolkit-chip">Python · PyTorch</span>
-  <span class="toolkit-chip">Stanford AI in Healthcare</span>
+  <span class="toolkit-chip">Mixed-Effects Models</span>
+  <span class="toolkit-chip">RCT Design</span>
+  <span class="toolkit-chip">Cross-sectional Surveys</span>
+  <span class="toolkit-chip">R Programming</span>
+  <span class="toolkit-chip">Data Visualization</span>
+  <span class="toolkit-chip">Systematic Review</span>
+  <span class="toolkit-chip">Clinical Trial Management</span>
 </div>
 ```
 
@@ -66,20 +66,11 @@ I am actively transitioning toward machine learning for health applications, com
 
 ```{=html}
 <div class="contact-grid">
-  <a class="contact-link" href="mailto:cory.dugan@uwa.edu.au">
-    <i class="bi bi-envelope-fill"></i> cory.dugan@uwa.edu.au
-  </a>
   <a class="contact-link" href="mailto:cory.dugan1@gmail.com">
-    <i class="bi bi-envelope"></i> cory.dugan1@gmail.com
+    <i class="bi bi-envelope-fill"></i> cory.dugan1@gmail.com
   </a>
   <a class="contact-link" href="https://www.linkedin.com/in/cory-dugan-phd/" target="_blank">
     <i class="bi bi-linkedin"></i> LinkedIn
-  </a>
-  <a class="contact-link" href="tel:+61401910790">
-    <i class="bi bi-telephone-fill"></i> 0401 910 790
-  </a>
-  <a class="contact-link" href="https://calendly.com" target="_blank">
-    <i class="bi bi-calendar-check"></i> Book a 15-min call
   </a>
   <a class="contact-link" href="/cv.html">
     <i class="bi bi-file-earmark-person-fill"></i> CV

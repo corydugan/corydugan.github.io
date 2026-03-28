@@ -7,7 +7,7 @@ page-layout: full
 <div class="hero">
   <div class="hero-inner">
     <h1 class="hero-name">About</h1>
-    <p class="hero-tagline">Researcher. Biostatistician. Builder.</p>
+    <p class="hero-tagline">Researcher. Biostatistician. Health Innovator.</p>
   </div>
 </div>
 ```
@@ -16,55 +16,44 @@ page-layout: full
 
 ## Background
 
-I am a nutrition scientist and biostatistician with a PhD and over a decade of experience in clinical and translational research. My work sits at the intersection of women's health, haematology, and applied statistics — with a growing focus on machine learning for health applications.
+I am a nutrition scientist and biostatistician with a PhD in Nutrition & Exercise Physiology and over seven years of research experience in clinical and translational health sciences. My work sits at the intersection of women's health, haematology, and applied statistics — grounded in rigorous study design and statistical methods.
 
 My research career began with a fundamental observation: iron deficiency in exercising females is chronically underdiagnosed, driven by male-calibrated reference ranges, symptom normalisation, and a near-total absence of large-scale intervention data. That observation shaped my doctoral work and has anchored my research ever since.
+
+Currently, I am a Postdoctoral Research Fellow at the Pennington Biomedical Research Centre in Baton Rouge, Louisiana, focusing on iron regulation, nutrition, and metabolic health.
 
 ---
 
 ## Research & Clinical Experience
 
-**IRONWOMAN Randomised Controlled Trial** — Lead researcher on a double-blind, placebo-controlled RCT examining iron supplementation in exercising females. Designed the protocol, managed randomisation, oversaw data collection across multiple timepoints, and led the biostatistical analysis.
+**IRONWOMAN Randomised Controlled Trial** — Lead researcher on a double-blind, placebo-controlled RCT examining intravenous iron supplementation in iron-deficient exercising females. Designed the protocol, managed randomisation and data collection across multiple timepoints, and led the biostatistical analysis. Published in BJSM, 2025.
 
-**Population Screening** — Screened over **3,000 females** for health indicators and markers of iron deficiency and anaemia across clinical and community settings, generating one of the largest observational datasets in this area.
+**Population Iron Deficiency Screening** — Screened over **10,000 females** across sporting clubs, shopping centres, and universities for health indicators and markers of iron deficiency and anaemia, generating one of the largest observational datasets in this field. Results published across multiple peer-reviewed journals.
 
-**ANZ Consensus Statement** — Contributed to the Australian and New Zealand consensus position statement on iron supplementation in pregnancy, bridging the gap between clinical research and evidence-based practice guidelines.
+**Systematic Reviews & Meta-Analysis** — Conducted systematic review and random-effects meta-analysis of intravenous iron supplementation for non-anaemic iron deficiency. Cited by WHO. Published in JCSM, 2022.
 
-**Publications** — Over **20 peer-reviewed articles** in women's health, nutrition science, clinical trials, and haematology.
+**ANZ Consensus Statement** — Contributed to the Australian and New Zealand consensus position statement on iron optimisation in pregnancy, bridging clinical research and evidence-based practice guidelines. Published in Internal Medicine Journal, 2025.
+
+**Publications** — 26 peer-reviewed articles in women's health, nutrition science, clinical trials, haematology, and exercise physiology across leading journals including BJSM, JAMA Network Open, JCEM, and Anaesthesia.
 
 ---
 
 ## Statistical Expertise
 
-My statistical toolkit spans the full range from classical inference to modern machine learning:
+My statistical toolkit centres on classical inference and transparent, reproducible methods:
 
 ```{=html}
 <div class="toolkit-row">
-  <span class="toolkit-chip">Linear Mixed-Effects Models</span>
-  <span class="toolkit-chip">Longitudinal / Time-Series Analysis</span>
   <span class="toolkit-chip">Meta-Analysis & Systematic Review</span>
-  <span class="toolkit-chip">Survival Modelling (Cox PH)</span>
-  <span class="toolkit-chip">ROC / Diagnostic Accuracy</span>
-  <span class="toolkit-chip">LASSO / Ridge / Elastic Net</span>
-  <span class="toolkit-chip">Bayesian Methods</span>
-  <span class="toolkit-chip">Power & Sample Size Calculation</span>
+  <span class="toolkit-chip">Mixed-Effects Models</span>
+  <span class="toolkit-chip">RCT Design & Analysis</span>
+  <span class="toolkit-chip">Cross-sectional Survey Design</span>
+  <span class="toolkit-chip">Data Visualization</span>
+  <span class="toolkit-chip">R Programming (tidyverse, ggplot2, metafor, lme4)</span>
 </div>
 ```
 
-**Primary tools:** R (tidyverse, ggplot2, lme4, survival, meta, pROC), Python (pandas, scikit-learn, PyTorch), SPSS, Stata.
-
----
-
-## Current Transition: Research → Applied ML/AI
-
-I am actively building toward applied data science and ML engineering roles in pharma, biotech, and health tech. Current upskilling:
-
-- **Stanford AI in Healthcare Specialisation** — Enrolled (2025–2026)
-- **AIM-AHEAD Program** — Python and PyTorch for health AI applications
-- **R Formal Training** — High Distinction, University of Western Australia
-- **GitHub Portfolio** — This site; showcasing reproducible, documented analyses
-
-My target: roles that combine deep health domain knowledge with computational rigour — clinical data scientist, biostatistician (pharma/CRO), health AI/ML engineer, or research-to-product consulting.
+**Primary tool:** R for all analyses — from data wrangling to statistical modelling to publication-ready visualisation.
 
 ---
 
@@ -72,23 +61,24 @@ My target: roles that combine deep health domain knowledge with computational ri
 
 ```{=html}
 <div class="role-chips" style="margin-bottom: 1.5rem;">
-  <span class="role-chip">Research Officer · University of Western Australia</span>
-  <span class="role-chip">MD Scholarly Activity Supervisor · UWA</span>
-  <span class="role-chip">Co-founder · HolisticHer | Perth, WA</span>
-  <span class="role-chip">Adjunct Postdoctoral Fellow · Curtin University</span>
-  <span class="role-chip">Adjunct Postdoctoral Fellow · Louisiana State University (PBRC)</span>
+  <span class="role-chip">Postdoctoral Research Fellow · Pennington Biomedical Research Centre</span>
+  <span class="role-chip">Research Officer (Chief Investigator) · University of Western Australia</span>
+  <span class="role-chip">Adjunct Research Fellow · Curtin University</span>
+  <span class="role-chip">Founder · HolisticHer</span>
+  <span class="role-chip">Director · P∆R∆DOX Health & Wellbeing</span>
 </div>
 ```
 
-**HolisticHer** is a women's health initiative I co-founded to translate evidence-based research on iron, nutrition, and exercise physiology into accessible, actionable guidance for women — closing the gap between academic findings and real-world impact.
+**HolisticHer** is a women's health initiative I founded to translate evidence-based research on iron, nutrition, and exercise physiology into accessible, actionable guidance for women — closing the gap between academic findings and real-world impact.
 
 ---
 
 ## Education
 
-- **PhD** — Nutrition Science / Women's Health *(Thesis: Iron deficiency in exercising females)*
-- **AFHEA** — Associate Fellowship of the Higher Education Academy (UK Professional Standards Framework)
-- **Stanford AI in Healthcare** *(in progress)*
+- **PhD** — Nutrition & Exercise Physiology, University of Western Australia (2020–2024). Thesis: *Iron and women's health: A multidimensional exploration of iron deficiency, management, and treatment in active females*
+- **AFHEA** — Associate Fellowship of the Higher Education Academy (UK Professional Standards Framework), 2022
+- **BSc (First Class Honours)** — Bioenergetics, University of Western Australia (2018–2019). Thesis: Effects of simulated high altitude on blood glucose in type 1 diabetes. Altmetric score 395 (top 5% of all research).
+- **BSc** — Sport & Exercise Science, University of Western Australia (2018–2019). WAM 88.25, GPA 7.0
 
 ---
 
@@ -96,17 +86,11 @@ My target: roles that combine deep health domain knowledge with computational ri
 
 ```{=html}
 <div class="contact-grid">
-  <a class="contact-link" href="mailto:cory.dugan@uwa.edu.au">
-    <i class="bi bi-envelope-fill"></i> cory.dugan@uwa.edu.au
-  </a>
   <a class="contact-link" href="mailto:cory.dugan1@gmail.com">
-    <i class="bi bi-envelope"></i> cory.dugan1@gmail.com
+    <i class="bi bi-envelope-fill"></i> cory.dugan1@gmail.com
   </a>
   <a class="contact-link" href="https://www.linkedin.com/in/cory-dugan-phd/" target="_blank">
     <i class="bi bi-linkedin"></i> LinkedIn
-  </a>
-  <a class="contact-link" href="https://calendly.com" target="_blank">
-    <i class="bi bi-calendar-check"></i> Book a 15-min call
   </a>
   <a class="contact-link" href="/cv.html">
     <i class="bi bi-file-earmark-person-fill"></i> CV
