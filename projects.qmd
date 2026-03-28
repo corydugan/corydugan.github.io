@@ -3,16 +3,9 @@ title: ""
 page-layout: full
 ---
 
-```{=html}
-<div class="hero">
-  <div class="hero-inner">
-    <h1 class="hero-name">Projects</h1>
-    <p class="hero-tagline">
-      Clinical trials, systematic reviews, and population health research — documented in R.
-    </p>
-  </div>
-</div>
-```
+## Projects
+
+Clinical trials, systematic reviews, and population health research — documented in R.
 
 ---
 

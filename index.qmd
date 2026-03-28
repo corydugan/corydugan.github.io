@@ -3,23 +3,17 @@ title: ""
 page-layout: full
 ---
 
+## Dr. Cory William Dugan
+
+**PhD · AFHEA** — Nutrition researcher & biostatistician specialising in iron deficiency, women's health, and clinical trial design.
+
 ```{=html}
-<div class="hero">
-  <div class="hero-inner">
-    <h1 class="hero-name">Dr. Cory William Dugan</h1>
-    <p class="hero-credentials">PhD &nbsp;·&nbsp; AFHEA</p>
-    <p class="hero-tagline">
-      Nutrition researcher &amp; biostatistician specialising in iron deficiency,<br>
-      women's health, and clinical trial design.
-    </p>
-    <div class="role-chips">
-      <span class="role-chip">Postdoctoral Research Fellow · Pennington Biomedical</span>
-      <span class="role-chip">Research Officer · UWA</span>
-      <span class="role-chip">Adjunct Research Fellow · Curtin University</span>
-      <span class="role-chip">Founder · HolisticHer</span>
-      <span class="role-chip">Director · P∆R∆DOX Health & Wellbeing</span>
-    </div>
-  </div>
+<div class="cv-chip-row" style="margin: 0.8rem 0 1.5rem;">
+  <span class="cv-chip">Postdoctoral Research Fellow · Pennington Biomedical</span>
+  <span class="cv-chip">Research Officer · UWA</span>
+  <span class="cv-chip">Adjunct Research Fellow · Curtin University</span>
+  <span class="cv-chip">Founder · HolisticHer</span>
+  <span class="cv-chip">Director · P∆R∆DOX Health & Wellbeing</span>
 </div>
 ```
 

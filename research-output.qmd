@@ -3,18 +3,12 @@ title: ""
 page-layout: full
 toc: true
 toc-depth: 2
+toc-location: left
 ---
 
-```{=html}
-<div class="hero">
-  <div class="hero-inner">
-    <h1 class="hero-name">Research Output</h1>
-    <p class="hero-tagline">
-      Conferences &nbsp;·&nbsp; Presentations &nbsp;·&nbsp; Media &nbsp;·&nbsp; Peer Review &nbsp;·&nbsp; Funding
-    </p>
-  </div>
-</div>
-```
+## Research Output
+
+Conferences · Presentations · Media · Peer Review · Funding
 
 ---
 

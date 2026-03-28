@@ -3,14 +3,9 @@ title: ""
 page-layout: full
 ---
 
-```{=html}
-<div class="hero">
-  <div class="hero-inner">
-    <h1 class="hero-name">About</h1>
-    <p class="hero-tagline">Researcher. Biostatistician. Health Innovator.</p>
-  </div>
-</div>
-```
+## About
+
+Researcher. Biostatistician. Health Innovator.
 
 ---
 
