@@ -71,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -174,7 +145,7 @@ window.Quarto = {
   <div class="hero-inner">
     
     <p class="hero-tagline">
-      Reproducible analyses, clinical trial work, and applied biostatistics — documented in R and Python.
+      Clinical trials, systematic reviews, and population health research — documented in R.
     </p>
   </div>
 </div>
@@ -182,74 +153,64 @@ window.Quarto = {
 <section id="featured-projects" class="level2">
 <h2 class="anchored" data-anchor-id="featured-projects">Featured Projects</h2>
 <div class="project-card">
-  <h3 class="anchored">Iron Biomarker Modelling — Body Iron Calculation Pipeline</h3>
-  <p>Implementation of the Cook et al. body iron formula using soluble transferrin receptor (sTfR) and serum ferritin. Demonstrates the non-linear relationship between ferritin and total body iron stores — critical for identifying iron depletion in exercising females where ferritin alone is insufficient.</p>
+  <h3 class="anchored">IRONWOMAN RCT — Double-Blind Randomised Controlled Trial</h3>
+  <p>A Phase III double-blind, placebo-controlled randomised controlled trial examining the efficacy and safety of intravenous iron supplementation in iron-deficient exercising females. Includes protocol development, randomisation strategy, longitudinal biomarker tracking, and mixed-effects statistical analysis. Published in BJSM, 2025.</p>
   <div class="project-tags">
     <span class="project-tag">R</span>
-    <span class="project-tag">ggplot2</span>
-    <span class="project-tag">dplyr</span>
-    <span class="project-tag">Biomarker Modelling</span>
+    <span class="project-tag">lme4</span>
+    <span class="project-tag">RCT Design</span>
+    <span class="project-tag">Clinical Trials</span>
     <span class="project-tag">Women's Health</span>
   </div>
 </div>
 
 <div class="project-card">
-  <h3 class="anchored">IRONWOMAN RCT — Statistical Analysis Plan</h3>
-  <p>Double-blind, placebo-controlled randomised controlled trial examining iron supplementation in exercising females. Includes power calculations, randomisation protocol, linear mixed-effects modelling for longitudinal outcomes, and sensitivity analyses for missing data.</p>
+  <h3 class="anchored"><a href="meta-analysis.html" style="color: inherit; text-decoration: none;">Systematic Review &amp; Meta-Analysis — Iron Supplementation in Non-Anaemic Iron Deficiency</a></h3>
+  <p>Comprehensive systematic review and random-effects meta-analysis of intravenous iron supplementation for non-anaemic iron deficiency across clinical populations. Includes forest plots, funnel plots, heterogeneity assessment (I²), publication bias analysis, and subgroup investigations. Cited by WHO. <a href="meta-analysis.html" class="project-tag" style="text-decoration: none;">View Full Analysis →</a></p>
   <div class="project-tags">
     <span class="project-tag">R</span>
-    <span class="project-tag">lme4</span>
-    <span class="project-tag">RCT Design</span>
-    <span class="project-tag">Longitudinal Analysis</span>
-    <span class="project-tag">Clinical Trials</span>
-  </div>
-</div>
-
-<div class="project-card">
-  <h3 class="anchored"><a href="meta-analysis.html" style="color: inherit; text-decoration: none;">Meta-Analysis — Iron Supplementation in Exercising Females</a></h3>
-  <p>Systematic review and random-effects meta-analysis of iron supplementation interventions. Includes forest plots, funnel plots, heterogeneity assessment (I²), and subgroup analyses by supplementation dose and baseline iron status. <a href="meta-analysis.html" class="project-tag" style="text-decoration: none;">View Full Analysis →</a></p>
-  <div class="project-tags">
-    <span class="project-tag">R</span>
-    <span class="project-tag">meta</span>
     <span class="project-tag">metafor</span>
     <span class="project-tag">Systematic Review</span>
+    <span class="project-tag">Meta-Analysis</span>
     <span class="project-tag">Forest Plots</span>
   </div>
 </div>
 
 <div class="project-card">
-  <h3 class="anchored">EHR-Scale Iron Deficiency Prediction — All of Us Research Program</h3>
-  <p>Full-stack health data science pipeline leveraging the NIH All of Us dataset (633K+ participants). Extracts iron biomarker data from OMOP-standardised EHR via BigQuery/SQL, then builds LASSO and Elastic Net models to predict iron deficiency from routinely collected clinical data. <em>Full analysis page coming soon.</em></p>
+  <h3 class="anchored">Population Iron Deficiency Screening — 10,000+ Females</h3>
+  <p>Large-scale population screening study characterising iron deficiency prevalence, clinical presentation, and biomarker profiles across sporting populations, shopping centres, and universities. Cross-sectional survey design with comprehensive iron biomarker assessment. Results published across multiple journals including Vox Sanguinis, 2025.</p>
   <div class="project-tags">
     <span class="project-tag">R</span>
-    <span class="project-tag">SQL / BigQuery</span>
-    <span class="project-tag">OMOP CDM</span>
-    <span class="project-tag">glmnet</span>
-    <span class="project-tag">LASSO / Elastic Net</span>
-    <span class="project-tag">ROC / AUC</span>
-    <span class="project-tag">Cloud Infrastructure</span>
+    <span class="project-tag">Cross-sectional Survey</span>
+    <span class="project-tag">Epidemiology</span>
+    <span class="project-tag">Women's Health</span>
+    <span class="project-tag">Population Health</span>
   </div>
 </div>
 
 <div class="project-card">
-  <h3 class="anchored">ML Pipeline — Predictive Modelling for Iron Deficiency Risk</h3>
-  <p>Logistic regression and LASSO-regularised classification pipeline to predict iron deficiency risk from demographic and dietary variables. Includes cross-validation, ROC analysis, and feature importance via coefficient shrinkage. <em>In development — Stanford AI in Healthcare capstone.</em></p>
+  <h3 class="anchored">DARP Trial — Phase IV RCT in Type 1 Diabetes</h3>
+  <p>Chief Investigator on a Phase IV randomised controlled trial examining whether drinking water before and during exercise in heat increases hypoglycaemia risk in individuals with type 1 diabetes. NHMRC-funded ($60K). Ongoing study with Prof. Paul Fournier, UWA.</p>
   <div class="project-tags">
-    <span class="project-tag">Python</span>
-    <span class="project-tag">scikit-learn</span>
-    <span class="project-tag">LASSO</span>
-    <span class="project-tag">ROC / AUC</span>
-    <span class="project-tag">ML for Health</span>
+    <span class="project-tag">R</span>
+    <span class="project-tag">RCT Design</span>
+    <span class="project-tag">Type 1 Diabetes</span>
+    <span class="project-tag">Exercise Physiology</span>
+    <span class="project-tag">Clinical Trials</span>
   </div>
 </div>
-<hr>
-</section>
-<section id="statistical-methods" class="level2">
-<h2 class="anchored" data-anchor-id="statistical-methods">Statistical Methods</h2>
-<p>The Cook et al.&nbsp;body iron formula linearises iron stores distribution for regression modelling:</p>
-<p><span class="math display">\[\text{Body Iron (mg/kg)} = -\frac{\log_{10}(\text{sTfR} \times 1000\ /\ \text{Ferritin}) - 2.8229}{0.1207}\]</span></p>
-<p><em>sTfR</em> = soluble transferrin receptor (mg/L); <em>Ferritin</em> = serum ferritin (µg/L). Negative values indicate iron depletion.</p>
-<p>This approach enables continuous body iron as a regression outcome rather than binary deficiency classification — particularly relevant when specifying linear mixed-effects models with repeated-measures iron status data.</p>
+
+<div class="project-card">
+  <h3 class="anchored">Altitude &amp; Type 1 Diabetes — Effects on Blood Glucose During Exercise</h3>
+  <p>Honours thesis investigating simulated high-altitude effects on blood glucose regulation during exercise in individuals with type 1 diabetes. Published in JCEM, 2022 (Altmetric 395; 50+ news outlets). Demonstrates the translational value of physiological research for clinical practice.</p>
+  <div class="project-tags">
+    <span class="project-tag">R</span>
+    <span class="project-tag">Exercise Physiology</span>
+    <span class="project-tag">Type 1 Diabetes</span>
+    <span class="project-tag">Altitude Simulation</span>
+    <span class="project-tag">Clinical Translation</span>
+  </div>
+</div>
 
 
 </section>
