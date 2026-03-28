@@ -1,0 +1,428 @@
+/* ============================================================
+   CORY DUGAN PORTFOLIO — Custom Styles
+   Extends the Darkly Bootswatch theme
+   ============================================================ */
+
+/* ── CSS Variables ── */
+:root {
+  --accent-teal: #0f9b8f;
+  --accent-teal-light: #14b8a6;
+  --accent-gold: #d4af37;
+  --surface-raised: rgba(255, 255, 255, 0.04);
+  --surface-hover: rgba(255, 255, 255, 0.07);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --text-muted: rgba(255, 255, 255, 0.6);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+}
+
+/* ── Global Refinements ── */
+
+/* Slightly tighter body text for readability */
+body {
+  letter-spacing: 0.01em;
+  line-height: 1.75;
+}
+
+/* Better heading hierarchy */
+h1, h2, h3, h4 {
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--accent-teal);
+  display: inline-block;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--accent-teal-light);
+}
+
+/* Subtle horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid var(--border-subtle);
+  margin: 2.5rem 0;
+}
+
+/* Better link styling */
+a {
+  color: var(--accent-teal-light);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-gold);
+  text-decoration: none;
+}
+
+/* ── Navbar Polish ── */
+.navbar {
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-subtle);
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.navbar-brand {
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  opacity: 1;
+  color: var(--accent-teal-light) !important;
+}
+
+/* ── Hero Section ── */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem 3rem;
+  margin: -1rem -1rem 0 -1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(15, 155, 143, 0.12) 0%,
+    rgba(20, 30, 62, 0.4) 50%,
+    rgba(212, 175, 55, 0.08) 100%
+  );
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.hero-name {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.3rem;
+  background: linear-gradient(135deg, #ffffff 30%, var(--accent-teal-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-credentials {
+  font-size: 1rem;
+  color: var(--text-muted);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.hero-tagline {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+/* ── Role Chips ── */
+.role-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.role-chip {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent-teal-light);
+  background: rgba(15, 155, 143, 0.1);
+  border: 1px solid rgba(15, 155, 143, 0.25);
+  border-radius: 100px;
+  letter-spacing: 0.02em;
+  transition: all 0.2s ease;
+}
+
+.role-chip:hover {
+  background: rgba(15, 155, 143, 0.18);
+  border-color: rgba(15, 155, 143, 0.4);
+  transform: translateY(-1px);
+}
+
+/* ── Toolkit Chips ── */
+.toolkit-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.toolkit-chip {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  background: var(--surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+}
+
+.toolkit-chip:hover {
+  background: var(--surface-hover);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+/* ── Contact Grid ── */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 0.5rem 0;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1rem;
+  background: var(--surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  transition: all 0.25s ease;
+}
+
+.contact-link:hover {
+  background: var(--surface-hover);
+  border-color: var(--accent-teal);
+  color: var(--accent-teal-light) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(15, 155, 143, 0.15);
+}
+
+.contact-link i {
+  font-size: 1.1rem;
+  color: var(--accent-teal);
+}
+
+/* ── Project Cards ── */
+.project-card {
+  background: var(--surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem 1.8rem;
+  margin-bottom: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  background: var(--surface-hover);
+  border-color: rgba(15, 155, 143, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.project-card h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.6rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.project-card p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.92rem;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.project-tag {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent-teal-light);
+  background: rgba(15, 155, 143, 0.1);
+  border: 1px solid rgba(15, 155, 143, 0.2);
+  border-radius: 100px;
+  letter-spacing: 0.02em;
+}
+
+/* ── CV Page Enhancements ── */
+
+/* Make tables cleaner */
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table > thead > tr > th {
+  background: rgba(15, 155, 143, 0.12);
+  border-bottom: 2px solid var(--accent-teal) !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-teal-light);
+  padding: 0.75rem 1rem;
+}
+
+.table > tbody > tr > td {
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.table > tbody > tr:hover > td {
+  background: var(--surface-raised);
+}
+
+/* CV Table of Contents sidebar */
+.sidebar nav[role="doc-toc"] {
+  border-left: 2px solid var(--border-subtle);
+  padding-left: 1rem;
+}
+
+.sidebar nav[role="doc-toc"] a {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  padding: 0.2rem 0;
+  transition: color 0.2s ease;
+}
+
+.sidebar nav[role="doc-toc"] a:hover,
+.sidebar nav[role="doc-toc"] a.active {
+  color: var(--accent-teal-light);
+}
+
+/* ── Research Output Cards ── */
+.pub-card {
+  background: var(--surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--accent-teal);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.2rem;
+  margin-bottom: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.pub-card:hover {
+  background: var(--surface-hover);
+  border-left-color: var(--accent-gold);
+}
+
+/* ── Bold text highlight ── */
+strong {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* ── Lists refinement ── */
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.3rem;
+}
+
+ul li::marker {
+  color: var(--accent-teal);
+}
+
+/* ── Content width constraint ── */
+.quarto-container {
+  max-width: 900px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .hero {
+    padding: 2.5rem 1.2rem 2rem;
+  }
+
+  .hero-name {
+    font-size: 2rem;
+  }
+
+  .hero-tagline {
+    font-size: 0.95rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-name {
+    font-size: 1.6rem;
+  }
+
+  .role-chips {
+    gap: 0.35rem;
+  }
+
+  .role-chip {
+    font-size: 0.72rem;
+    padding: 0.25rem 0.7rem;
+  }
+}
+
+/* ── Smooth scroll ── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Print styles ── */
+@media print {
+  .hero {
+    background: none;
+    padding: 1rem 0;
+  }
+
+  .hero-name {
+    -webkit-text-fill-color: #000;
+    color: #000;
+  }
+
+  .navbar, .quarto-search {
+    display: none !important;
+  }
+}
