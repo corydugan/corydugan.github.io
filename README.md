@@ -14,8 +14,6 @@ Health data scientist and postdoctoral researcher working at the intersection of
 
 I am a Postdoctoral Research Fellow at Pennington Biomedical Research Center and an Adjunct Research Fellow at Curtin University. My background is in nutrition, exercise physiology, iron metabolism, women's health, and clinical research design, with experience spanning randomized trials, systematic reviews, meta-analysis, and observational health data. 
 
-## Selected strengths
-
 - 8+ years of quantitative health research experience.
 - 25 peer-reviewed publications across women's health, iron deficiency, and clinical physiology.
 - Advanced R for statistical modeling, visualization, and reproducible analysis.
@@ -24,14 +22,7 @@ I am a Postdoctoral Research Fellow at Pennington Biomedical Research Center and
 
 ## Current work
 
-- Population-level analysis of iron metabolism and physiological variation.
-- Cross-cohort health data analyses.
 - Translating academic research into applied data science for industry-facing health, biotech, and real-world evidence roles.
-
-## Building now
-
-This GitHub portfolio is currently under active development. Planned public projects include:
-
 - Reproducible R analyses for health and epidemiology questions.
 - Health data science case studies using public datasets.
 - Applied machine learning projects in Python for clinically relevant prediction problems.
