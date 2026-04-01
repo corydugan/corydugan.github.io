@@ -1,4 +1,4 @@
-# Cory W. Dugan, PhD
+# Dr. Cory Dugan, PhD, AFHEA
 
 Health data scientist and postdoctoral researcher working at the intersection of women's health, iron deficiency, clinical research, and population health analytics. I use biostatistics, reproducible data analysis, and clinically grounded research methods to study complex health questions in large-scale clinical, survey, and population health datasets. My current work focuses on iron metabolism, women's health, and applied health data science, with a growing emphasis on machine learning in Python.
 
